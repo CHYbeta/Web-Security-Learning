@@ -234,6 +234,7 @@
 + [Python Sandbox Bypass](https://mp.weixin.qq.com/s?__biz=MzIzOTQ5NjUzOQ==&mid=2247483665&idx=1&sn=4b18de09738fdc5291634db1ca2dd55a)
 
 ## WAF相关
++ [牛逼牛逼的payload和bypass总结](https://github.com/swisskyrepo/PayloadsAllTheThings)
 + [WAF绕过参考资料](http://www.mottoin.com/100887.html)
 + [浅谈WAF绕过技巧](http://www.freebuf.com/articles/web/136723.html)
 + [addslashes防注入的绕过案例](https://xianzhi.aliyun.com/forum/read/753.html?fpage=6)
@@ -241,6 +242,7 @@
 + [WAF攻防研究之四个层次Bypass WAF](http://weibo.com/ttarticle/p/show?id=2309404007261092631700)
 + [使用HTTP头去绕过WAF ](http://www.sohu.com/a/110066439_468673)
 + [会找漏洞的时光机: Pinpointing Vulnerabilities](https://www.inforsec.org/wp/?p=1993)
+
 
 ## 代码审计
 + [论PHP常见的漏洞](http://wooyun.jozxing.cc/static/drops/papers-4544.html)
@@ -338,7 +340,7 @@
 + [CTF比赛中关于zip的总结](http://bobao.360.cn/ctf/detail/203.html)
 + [十五个Web狗的CTF出题套路](http://weibo.com/ttarticle/p/show?id=2309403980950244591011)
 + [CTF备忘录](https://827977014.docs.qq.com/Bt2v7IZWnYo?type=1&_wv=1&_bid=2517)
-+ [牛逼牛逼的payload和bypass总结](https://github.com/swisskyrepo/PayloadsAllTheThings)
++ [rcoil:CTF线下攻防赛总结](http://rcoil.me/2017/06/CTF%E7%BA%BF%E4%B8%8B%E8%B5%9B%E6%80%BB%E7%BB%93/)
 
 # 杂
 + [各种脚本语言不同版本一句话开启 HTTP 服务器的总结](http://www.mottoin.com/94895.html)
