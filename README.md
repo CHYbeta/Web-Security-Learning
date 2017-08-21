@@ -5,6 +5,11 @@
 
 同步更新于： [chybeta: Web-Security-Learning (带目录) ](https://chybeta.github.io/2017/08/19/Web-Security-Learning/) 
 
+8月21日更新：
++ 整合前端安全模块
++ 新收录文章：
+	+ 提权： [Windows提权系列中篇](https://mp.weixin.qq.com/s/ERXOLhWo0-lJbMV143I8hA)
+	+ 杂：[如何通过恶意插件在Atom中植入后门](http://bobao.360.cn/learning/detail/4268.html)
 
 ---
 
@@ -43,6 +48,8 @@
 + [绕过WAF注入](https://bbs.ichunqiu.com/thread-25397-1-1.html?from=sec)
 + [bypassGET和POST的注入防御思路分享](https://bbs.ichunqiu.com/thread-16134-1-1.html?from=sec)
 + [SQL注入的常规思路及奇葩技巧 ](https://mp.weixin.qq.com/s/hBkJ1M6LRgssNyQyati1ng)
++ [Beyond SQLi: Obfuscate and Bypass](https://www.exploit-db.com/papers/17934/)
+
 
 ### 工具
 + [使用burp macros和sqlmap绕过csrf防护进行sql注入](http://bobao.360.cn/learning/detail/3557.html)
@@ -50,38 +57,43 @@
 + [SQLmap tamper脚本注释](http://www.lengbaikai.net/?p=110)
 + [通过Burp以及自定义的Sqlmap Tamper进行二次SQL注入](http://www.4hou.com/system/6945.html)
 
-## XSS
-+ [从瑞士军刀到变形金刚--XSS攻击面拓展](https://xianzhi.aliyun.com/forum/read/1988.html)
-+ [我们要在任何可能的地方测试XSS漏洞 ](http://www.freebuf.com/vuls/142751.html)
-+ [浅谈跨站脚本攻击与防御 ](http://thief.one/2017/05/31/1/)
-+ [跨站的艺术-XSS入门与介绍](http://www.fooying.com/the-art-of-xss-1-introduction/)
+## 前端安全
+### XSS
 + [漫谈同源策略攻防](http://bobao.360.cn/learning/detail/3848.html)
 + [再谈同源策略 ](https://lightless.me/archives/review-SOP.html)
-+ [看我如何挖到GoogleMaps XSS漏洞并获得5000刀赏金](http://bobao.360.cn/learning/detail/3592.html)
++ [跨域方法总结](https://xianzhi.aliyun.com/forum/read/1404.html?fpage=4)
++ [浅谈跨站脚本攻击与防御 ](http://thief.one/2017/05/31/1/)
++ [跨站的艺术-XSS入门与介绍](http://www.fooying.com/the-art-of-xss-1-introduction/)
++ [Content Security Policy 入门教程](https://jaq.alibaba.com/community/art/show?spm=a313e.7916646.24000001.49.ZP8rXN&articleid=518)
++ [LoRexxar-CSP](http://lorexxar.cn/tags/csp/)
++ [XSS小记](https://xianzhi.aliyun.com/forum/read/196.html?fpage=7)
++ [XSS Bypass Cookbook](https://xianzhi.aliyun.com/forum/read/536.html?fpage=7)
++ [从瑞士军刀到变形金刚--XSS攻击面拓展](https://xianzhi.aliyun.com/forum/read/1988.html)
++ [我们要在任何可能的地方测试XSS漏洞 ](http://www.freebuf.com/vuls/142751.html)
 + [Alternative to Javascript Pseudo-Protocol](http://brutelogic.com.br/blog/alternative-javascript-pseudo-protocol/)
 + [Bypassing CSP using polyglot JPEGs ](http://blog.portswigger.net/2016/12/bypassing-csp-using-polyglot-jpegs.html)
 + [Bypass unsafe-inline mode CSP](http://paper.seebug.org/91/)
 + [Chrome XSS Auditor – SVG Bypass](https://brutelogic.com.br/blog/chrome-xss-auditor-svg-bypass/)
-+ [利用反射型XSS二次注入绕过CSP form-action限制](http://blog.neargle.com/SecNewsBak/drops/%E5%88%A9%E7%94%A8%E5%8F%8D%E5%B0%84%E5%9E%8BXSS%E4%BA%8C%E6%AC%A1%E6%B3%A8%E5%85%A5%E7%BB%95%E8%BF%87CSP%20form-action%E9%99%90%E5%88%B6.html)
-+ [XSS without HTML: Client-Side Template Injection with AngularJS ](http://blog.portswigger.net/2016/01/xss-without-html-client-side-template.html)
-+ [跨域方法总结](https://xianzhi.aliyun.com/forum/read/1404.html?fpage=4)
-+ [XSS小记](https://xianzhi.aliyun.com/forum/read/196.html?fpage=7)
-+ [XSS Bypass Cookbook](https://xianzhi.aliyun.com/forum/read/536.html?fpage=7)
-+ [当代 Web 的 JSON 劫持技巧](https://xianzhi.aliyun.com/forum/read/462.html?fpage=10)
-+ [LoRexxar-CSP](http://lorexxar.cn/tags/csp/)
-+ [Content Security Policy 入门教程](https://jaq.alibaba.com/community/art/show?spm=a313e.7916646.24000001.49.ZP8rXN&articleid=518)
-+ [CRLF Injection and Bypass Tencent WAF ](https://zhchbin.github.io/2016/01/31/CRLF-Injection-and-Bypass-WAF/)
-+ [不常见的xss利用探索](http://docs.ioin.in/writeup/wps2015.org/_2016_06_27__E4_B8_8D_E5_B8_B8_E8_A7_81_E7_9A_84xss_E5_88_A9_E7_94_A8_E6_8E_A2_E7_B4_A2_/index.html)
-+ [一个URL跳转引发的一系列“惨案” ](https://zhchbin.github.io/2016/04/09/Problems-Caused-by-URL-Redirection/)
-+ [Chrome 是怎么过滤反射型 XSS 的呢？](https://www.zhihu.com/question/20941818/answer/180842222?utm_source=qq&utm_medium=social)
 + [Cross site scripting payload for fuzzing](https://xianzhi.aliyun.com/forum/read/1704.html)
-+ [关于JSON CSRF的一些思考](https://mp.weixin.qq.com/s?__biz=MzIzMTc1MjExOQ==&mid=2247484126&idx=1&sn=f437882b19bed8d99d0a00938accc0c8&chksm=e89e2a06dfe9a310506419467ada63bee80f10c32267d0b11ea7d1f5491c5afdb344c5dac74e&mpshare=1&scene=23&srcid=0614BOCQBHPjaS2IOtADI3PP#rd)
-+ [Electron hack —— 跨平台 XSS ](https://mp.weixin.qq.com/s?__biz=MzU2NjE2NjIxNg==&mid=2247483756&amp;idx=1&amp;sn=96ae19e53426d5088718b6d37996e700&source=41#wechat_redirect)
-+ [Modern Alchemy: Turning XSS into RCE](https://blog.doyensec.com/2017/08/03/electron-framework-security.html)
++ [不常见的xss利用探索](http://docs.ioin.in/writeup/wps2015.org/_2016_06_27__E4_B8_8D_E5_B8_B8_E8_A7_81_E7_9A_84xss_E5_88_A9_E7_94_A8_E6_8E_A2_E7_B4_A2_/index.html)
 + [XSS攻击另类玩法](https://bbs.ichunqiu.com/thread-25578-1-1.html?from=sec)
++ [XSS易容术---bypass之编码混淆篇+辅助脚本编写](https://bbs.ichunqiu.com/thread-17500-1-1.html?from=sec)
++ [Chrome 是怎么过滤反射型 XSS 的呢？](https://www.zhihu.com/question/20941818/answer/180842222?utm_source=qq&utm_medium=social)
++ [Electron hack —— 跨平台 XSS ](https://mp.weixin.qq.com/s?__biz=MzU2NjE2NjIxNg==&mid=2247483756&amp;idx=1&amp;sn=96ae19e53426d5088718b6d37996e700&source=41#wechat_redirect)
++ [XSS without HTML: Client-Side Template Injection with AngularJS ](http://blog.portswigger.net/2016/01/xss-without-html-client-side-template.html)
++ [一个URL跳转引发的一系列“惨案” ](https://zhchbin.github.io/2016/04/09/Problems-Caused-by-URL-Redirection/)
++ [利用反射型XSS二次注入绕过CSP form-action限制](http://blog.neargle.com/SecNewsBak/drops/%E5%88%A9%E7%94%A8%E5%8F%8D%E5%B0%84%E5%9E%8BXSS%E4%BA%8C%E6%AC%A1%E6%B3%A8%E5%85%A5%E7%BB%95%E8%BF%87CSP%20form-action%E9%99%90%E5%88%B6.html)
++ [看我如何挖到GoogleMaps XSS漏洞并获得5000刀赏金](http://bobao.360.cn/learning/detail/3592.html)
++ [Modern Alchemy: Turning XSS into RCE](https://blog.doyensec.com/2017/08/03/electron-framework-security.html)
+
+### CSRF
++ [CRLF Injection and Bypass Tencent WAF ](https://zhchbin.github.io/2016/01/31/CRLF-Injection-and-Bypass-WAF/)
 + [用代码来细说Csrf漏洞危害以及防御](https://bbs.ichunqiu.com/thread-24127-1-1.html?from=sec)
 + [Cookie-Form型CSRF防御机制的不足与反思](https://www.leavesongs.com/PENETRATION/think-about-cookie-form-csrf-protected.html)
-+ [XSS易容术---bypass之编码混淆篇+辅助脚本编写](https://bbs.ichunqiu.com/thread-17500-1-1.html?from=sec)
++ [关于JSON CSRF的一些思考](https://mp.weixin.qq.com/s?__biz=MzIzMTc1MjExOQ==&mid=2247484126&idx=1&sn=f437882b19bed8d99d0a00938accc0c8&chksm=e89e2a06dfe9a310506419467ada63bee80f10c32267d0b11ea7d1f5491c5afdb344c5dac74e&mpshare=1&scene=23&srcid=0614BOCQBHPjaS2IOtADI3PP#rd)
+
+### 其他
++ [当代 Web 的 JSON 劫持技巧](http://paper.seebug.org/130/?from=timeline&isappinstalled=0)
 
 ## SSRF
 + [Build Your SSRF Exploit Framework SSRF](http://docs.ioin.in/writeup/fuzz.wuyun.org/_src_build_your_ssrf_exp_autowork_pdf/index.pdf)
@@ -363,7 +375,8 @@
 + [linux-kernel-exploits Linux平台提权漏洞集合](https://github.com/SecWiki/linux-kernel-exploits)
 + [windows-kernel-exploits Windows平台提权漏洞集合 ](https://github.com/SecWiki/windows-kernel-exploits)
 + [Linux MySQL Udf 提权](http://www.91ri.org/16540.html)
-+ [windows提权系列上篇 ](http://mp.weixin.qq.com/s/uOArxXIfcI4fjqnF9BDJGA)
++ [windows提权系列上篇](http://mp.weixin.qq.com/s/uOArxXIfcI4fjqnF9BDJGA)
++ [Windows提权系列中篇](https://mp.weixin.qq.com/s/ERXOLhWo0-lJbMV143I8hA)
 
 ## 渗透技巧
 + [域渗透神器Empire安装和简单使用 ](https://mp.weixin.qq.com/s/VqrUTW9z-yi3LqNNy-lE-Q)
@@ -407,3 +420,4 @@
 + [phpwind 利用哈希长度扩展攻击进行getshell](https://www.leavesongs.com/PENETRATION/phpwind-hash-length-extension-attack.html)
 + [深入理解hash长度扩展攻击（sha1为例） ](http://www.freebuf.com/articles/web/69264.html)
 + [Joomla 框架的程序执行流程及目录结构分析](http://bobao.360.cn/learning/detail/3909.html)
++ [如何通过恶意插件在Atom中植入后门](http://bobao.360.cn/learning/detail/4268.html)
