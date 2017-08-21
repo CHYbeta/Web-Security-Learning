@@ -8,6 +8,7 @@
 8月21日更新：
 + 整合前端安全模块
 + 新收录文章：
+	+ 前端安全；[当代 Web 的 JSON 劫持技巧](http://paper.seebug.org/130/?from=timeline&isappinstalled=0)
 	+ 提权： [Windows提权系列中篇](https://mp.weixin.qq.com/s/ERXOLhWo0-lJbMV143I8hA)
 	+ 杂：[如何通过恶意插件在Atom中植入后门](http://bobao.360.cn/learning/detail/4268.html)
 
