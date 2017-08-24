@@ -8,7 +8,7 @@
 8月24日更新：
 + 新收录文章：
 	+ sql注入；[高级SQL注入:混淆和绕过](http://www.cnblogs.com/croot/p/3450262.html)
-
+	+ php相关：[php & apache2 &操作系统之间的一些黑魔法](http://wonderkun.cc/index.html/?p=626)
 ---
 
 # Web-Security-Learning
@@ -248,6 +248,7 @@
 + [PHP Email Injection Example](http://resources.infosecinstitute.com/email-injection/)
 
 ### 其他
++ [php & apache2 &操作系统之间的一些黑魔法](http://wonderkun.cc/index.html/?p=626)
 + [php内存破坏漏洞exp编写和禁用函数绕过](http://blog.th3s3v3n.xyz/2016/05/01/bin/2016-5-1-php%E5%86%85%E5%AD%98%E7%A0%B4%E5%9D%8F%E6%BC%8F%E6%B4%9Eexp%E7%BC%96%E5%86%99%E5%92%8C%E7%A6%81%E7%94%A8%E5%87%BD%E6%95%B0%E7%BB%95%E8%BF%87/)
 + [挖掘PHP禁用函数绕过利用姿势](http://blog.th3s3v3n.xyz/2016/11/20/web/%E6%8C%96%E6%8E%98PHP%E7%A6%81%E7%94%A8%E5%87%BD%E6%95%B0%E7%BB%95%E8%BF%87%E5%88%A9%E7%94%A8%E5%A7%BF%E5%8A%BF/)
 + [.user.ini文件构成的PHP后门](http://wooyun.jozxing.cc/static/drops/tips-3424.html)
