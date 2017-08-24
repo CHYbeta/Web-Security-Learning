@@ -5,14 +5,14 @@
 
 同步更新于： [chybeta: Web-Security-Learning (带目录) ](https://chybeta.github.io/2017/08/19/Web-Security-Learning/) 
 
-8月21日更新：
-+ 整合前端安全模块
+8月24日更新：
 + 新收录文章：
-	+ 前端安全；[当代 Web 的 JSON 劫持技巧](http://paper.seebug.org/130/?from=timeline&isappinstalled=0)
-	+ 提权： [Windows提权系列中篇](https://mp.weixin.qq.com/s/ERXOLhWo0-lJbMV143I8hA)
-	+ 杂：[如何通过恶意插件在Atom中植入后门](http://bobao.360.cn/learning/detail/4268.html)
+	+ sql注入；[高级SQL注入:混淆和绕过](http://www.cnblogs.com/croot/p/3450262.html)
 
 ---
+
+# Web-Security-Learning
+项目地址：[Web-Security-Learning](https://github.com/CHYbeta/Web-Security-Learning)
 
 # Web Security
 
@@ -25,6 +25,7 @@
 + [SQL注入防御与绕过的几种姿势](http://bobao.360.cn/learning/detail/3801.html)
 + [MySQL偏门技巧](http://rcoil.me/2017/05/MySQL%E5%81%8F%E9%97%A8%E6%8A%80%E5%B7%A7/)
 + [mysql注入可报错时爆表名、字段名、库名](http://www.wupco.cn/?p=4117)
++ [高级SQL注入:混淆和绕过](http://www.cnblogs.com/croot/p/3450262.html)
 
 ### MSSQL
 + [MSSQL DBA权限获取WEBSHELL的过程 ](http://fuping.site/2017/05/16/MSSQL-DBA-Permission-GET-WEBSHELL/)
