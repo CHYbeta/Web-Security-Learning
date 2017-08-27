@@ -1,16 +1,15 @@
-# [Web-Security-Learning](https://chybeta.github.io/2017/08/19/Web-Security-Learning/)
-
-在学习Web安全的过程中整合的一些资料。
-该repo会不断更新，最近更新日期为：2017/8/24。
-
-同步更新于： [chybeta: Web-Security-Learning (带目录) ](https://chybeta.github.io/2017/08/19/Web-Security-Learning/) 
-
-8月24日更新：
+Web-Security-Learning 学习资料
+8月27日更新：
 + 新收录文章：
-	+ sql注入；[高级SQL注入:混淆和绕过](http://www.cnblogs.com/croot/p/3450262.html)
-	+ php相关：[php & apache2 &操作系统之间的一些黑魔法](http://wonderkun.cc/index.html/?p=626)
----
+	+ XSS；
+		+ [Xssing Web With Unicodes](http://blog.rakeshmane.com/2017/08/xssing-web-part-2.html)
+		+ [XSS Tricks - 从 Self-XSS 到登录你的账户](http://blog.fr1day.me/2016/09/07/XSS_Tricks_from_selfxss_to_your_account/)
+		+ [DOMXSS Wiki](https://github.com/wisec/domxsswiki/wiki)
+	+ java-web；
+		+ [站在Java的视角，深度分析防不胜防的小偷——“XSS” ](http://mp.weixin.qq.com/s?__biz=MzIzMzgxOTQ5NA==&mid=100000340&idx=1&sn=6ca4ec15ef6338daf1d4a907351d7c08&chksm=68fe9e5d5f89174b44fd0cae2e3d5c0018859d3d1dc6d60a2e16dcde34499ba224d6ea17a982#rd)
++ 新增java-web代码审计模块
 
+<!-- more -->
 # Web-Security-Learning
 项目地址：[Web-Security-Learning](https://github.com/CHYbeta/Web-Security-Learning)
 
@@ -69,6 +68,7 @@
 + [Content Security Policy 入门教程](https://jaq.alibaba.com/community/art/show?spm=a313e.7916646.24000001.49.ZP8rXN&articleid=518)
 + [LoRexxar-CSP](http://lorexxar.cn/tags/csp/)
 + [XSS小记](https://xianzhi.aliyun.com/forum/read/196.html?fpage=7)
++ [DOMXSS Wiki](https://github.com/wisec/domxsswiki/wiki)
 + [XSS Bypass Cookbook](https://xianzhi.aliyun.com/forum/read/536.html?fpage=7)
 + [从瑞士军刀到变形金刚--XSS攻击面拓展](https://xianzhi.aliyun.com/forum/read/1988.html)
 + [我们要在任何可能的地方测试XSS漏洞 ](http://www.freebuf.com/vuls/142751.html)
@@ -80,7 +80,9 @@
 + [不常见的xss利用探索](http://docs.ioin.in/writeup/wps2015.org/_2016_06_27__E4_B8_8D_E5_B8_B8_E8_A7_81_E7_9A_84xss_E5_88_A9_E7_94_A8_E6_8E_A2_E7_B4_A2_/index.html)
 + [XSS攻击另类玩法](https://bbs.ichunqiu.com/thread-25578-1-1.html?from=sec)
 + [XSS易容术---bypass之编码混淆篇+辅助脚本编写](https://bbs.ichunqiu.com/thread-17500-1-1.html?from=sec)
++ [Xssing Web With Unicodes](http://blog.rakeshmane.com/2017/08/xssing-web-part-2.html)
 + [Chrome 是怎么过滤反射型 XSS 的呢？](https://www.zhihu.com/question/20941818/answer/180842222?utm_source=qq&utm_medium=social)
++ [XSS Tricks - 从 Self-XSS 到登录你的账户](http://blog.fr1day.me/2016/09/07/XSS_Tricks_from_selfxss_to_your_account/)
 + [Electron hack —— 跨平台 XSS ](https://mp.weixin.qq.com/s?__biz=MzU2NjE2NjIxNg==&mid=2247483756&amp;idx=1&amp;sn=96ae19e53426d5088718b6d37996e700&source=41#wechat_redirect)
 + [XSS without HTML: Client-Side Template Injection with AngularJS ](http://blog.portswigger.net/2016/01/xss-without-html-client-side-template.html)
 + [一个URL跳转引发的一系列“惨案” ](https://zhchbin.github.io/2016/04/09/Problems-Caused-by-URL-Redirection/)
@@ -253,6 +255,18 @@
 + [挖掘PHP禁用函数绕过利用姿势](http://blog.th3s3v3n.xyz/2016/11/20/web/%E6%8C%96%E6%8E%98PHP%E7%A6%81%E7%94%A8%E5%87%BD%E6%95%B0%E7%BB%95%E8%BF%87%E5%88%A9%E7%94%A8%E5%A7%BF%E5%8A%BF/)
 + [.user.ini文件构成的PHP后门](http://wooyun.jozxing.cc/static/drops/tips-3424.html)
 
+### php代码审计
++ [论PHP常见的漏洞](http://wooyun.jozxing.cc/static/drops/papers-4544.html)
++ [浅谈代码审计入门实战：某博客系统最新版审计之旅 ](http://www.freebuf.com/articles/rookie/143554.html)
++ [ctf中的php代码审计技巧](http://www.am0s.com/ctf/200.html)
++ [PHP代码审计tips](http://docs.ioin.in/writeup/www.91ri.org/_15074_html/index.html)
++ [代码审计之文件越权和文件上传搜索技巧](http://docs.ioin.in/writeup/blog.heysec.org/_archives_170/index.html)
++ [PHP代码审计入门集合](http://wiki.ioin.in/post/group/6Rb)
++ [PHP代码审计学习](http://phantom0301.cc/2017/06/06/codeaudit/)
++ [PHP漏洞挖掘思路+实例](http://wooyun.jozxing.cc/static/drops/tips-838.html)
++ [PHP漏洞挖掘思路+实例 第二章](http://wooyun.jozxing.cc/static/drops/tips-858.html)
++ [浅谈代码审计入门实战：某博客系统最新版审计之旅 ](http://www.freebuf.com/articles/rookie/143554.html)
+
 ## java-Web
 ### 反序列
 + [如何攻击Java反序列化过程](http://bobao.360.cn/learning/detail/4267.html)
@@ -263,9 +277,16 @@
 ### Struct2
 + [Struts2 命令执行系列回顾](http://www.zerokeeper.com/vul-analysis/struts2-command-execution-series-review.html)
 
+### java-Web代码审计
++ [Java代码审计连载之—SQL注入](https://bbs.ichunqiu.com/forum.php?mod=viewthread&tid=22170&highlight=Java%E4%BB%A3%E7%A0%81%E5%AE%A1%E8%AE%A1%E8%BF%9E%E8%BD%BD)
++ [Java代码审计连载之—任意文件下载](https://bbs.ichunqiu.com/forum.php?mod=viewthread&tid=23587&highlight=Java%E4%BB%A3%E7%A0%81%E5%AE%A1%E8%AE%A1%E8%BF%9E%E8%BD%BD)
++ [Java代码审计连载之—XSS](https://bbs.ichunqiu.com/forum.php?mod=viewthread&tid=22875&highlight=Java%E4%BB%A3%E7%A0%81%E5%AE%A1%E8%AE%A1%E8%BF%9E%E8%BD%BD)
++ [Java代码审计连载之—添油加醋](https://bbs.ichunqiu.com/forum.php?mod=viewthread&tid=25475&highlight=Java%E4%BB%A3%E7%A0%81%E5%AE%A1%E8%AE%A1%E8%BF%9E%E8%BD%BD)
+
 ### 其他
 + [层层放大java审计的攻击面 ](https://mp.weixin.qq.com/s/WT1EXEryUGGqHQpSi959xw)
 + [以Java的视角来聊聊SQL注入 ](https://mp.weixin.qq.com/s?__biz=MzIzMzgxOTQ5NA==&mid=2247483954&idx=1&sn=418b7e55b16c717ee5140af990298e22&chksm=e8fe9e3bdf89172d0670690060944bf2434cc2d2e8fba4477711299a0775cf3735a2022c0778#rd)
++ [站在Java的视角，深度分析防不胜防的小偷——“XSS” ](http://mp.weixin.qq.com/s?__biz=MzIzMzgxOTQ5NA==&mid=100000340&idx=1&sn=6ca4ec15ef6338daf1d4a907351d7c08&chksm=68fe9e5d5f89174b44fd0cae2e3d5c0018859d3d1dc6d60a2e16dcde34499ba224d6ea17a982#rd)
 + [你的 Java web 配置安全吗？ ](https://mp.weixin.qq.com/s?__biz=MzIzMzgxOTQ5NA==&mid=100000318&idx=1&sn=9011af3e3968e0d87499605ef1a68291&chksm=68fe9e375f8917213297855bd9e1ab1203ae4c9b0b5ca351de7b2c0f7a7799bd1f4843cd13f4#rd)
 + [Java代码审计PPT ](https://xianzhi.aliyun.com/forum/read/1904.html)
 + [spring任意文件读取](https://github.com/ilmila/springcss-cve-2014-3625/tree/master/src)
@@ -296,17 +317,7 @@
 + [会找漏洞的时光机: Pinpointing Vulnerabilities](https://www.inforsec.org/wp/?p=1993)
 
 
-## 代码审计
-+ [论PHP常见的漏洞](http://wooyun.jozxing.cc/static/drops/papers-4544.html)
-+ [浅谈代码审计入门实战：某博客系统最新版审计之旅 ](http://www.freebuf.com/articles/rookie/143554.html)
-+ [ctf中的php代码审计技巧](http://www.am0s.com/ctf/200.html)
-+ [PHP代码审计tips](http://docs.ioin.in/writeup/www.91ri.org/_15074_html/index.html)
-+ [代码审计之文件越权和文件上传搜索技巧](http://docs.ioin.in/writeup/blog.heysec.org/_archives_170/index.html)
-+ [PHP代码审计入门集合](http://wiki.ioin.in/post/group/6Rb)
-+ [PHP代码审计学习](http://phantom0301.cc/2017/06/06/codeaudit/)
-+ [PHP漏洞挖掘思路+实例](http://wooyun.jozxing.cc/static/drops/tips-838.html)
-+ [PHP漏洞挖掘思路+实例 第二章](http://wooyun.jozxing.cc/static/drops/tips-858.html)
-+ [浅谈代码审计入门实战：某博客系统最新版审计之旅 ](http://www.freebuf.com/articles/rookie/143554.html)
+
 
 # 渗透测试
 ## Course
