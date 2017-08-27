@@ -6,6 +6,8 @@
 同步更新于： [chybeta: Web-Security-Learning (带目录) ](https://chybeta.github.io/2017/08/19/Web-Security-Learning/) 
 
 8月27日更新：
++ 新增[java-web代码审计模块](https://github.com/CHYbeta/Web-Security-Learning#java-web%E4%BB%A3%E7%A0%81%E5%AE%A1%E8%AE%A1)
++ 整合[php代码审计模块](https://github.com/CHYbeta/Web-Security-Learning#php%E4%BB%A3%E7%A0%81%E5%AE%A1%E8%AE%A1)
 + 新收录文章：
 	+ XSS；
 		+ [Xssing Web With Unicodes](http://blog.rakeshmane.com/2017/08/xssing-web-part-2.html)
@@ -13,7 +15,7 @@
 		+ [DOMXSS Wiki](https://github.com/wisec/domxsswiki/wiki)
 	+ java-web；
 		+ [站在Java的视角，深度分析防不胜防的小偷——“XSS” ](http://mp.weixin.qq.com/s?__biz=MzIzMzgxOTQ5NA==&mid=100000340&idx=1&sn=6ca4ec15ef6338daf1d4a907351d7c08&chksm=68fe9e5d5f89174b44fd0cae2e3d5c0018859d3d1dc6d60a2e16dcde34499ba224d6ea17a982#rd)
-+ 新增java-web代码审计模块
+
 
 <!-- more -->
 # Web Security
