@@ -10,9 +10,6 @@ Web-Security-Learning 学习资料
 + 新增java-web代码审计模块
 
 <!-- more -->
-# Web-Security-Learning
-项目地址：[Web-Security-Learning](https://github.com/CHYbeta/Web-Security-Learning)
-
 # Web Security
 
 ## sql注入
