@@ -1,4 +1,10 @@
-Web-Security-Learning 学习资料
+# [Web-Security-Learning](https://chybeta.github.io/2017/08/19/Web-Security-Learning/)
+
+在学习Web安全的过程中整合的一些资料。
+该repo会不断更新，最近更新日期为：2017/8/27。
+
+同步更新于： [chybeta: Web-Security-Learning (带目录) ](https://chybeta.github.io/2017/08/19/Web-Security-Learning/) 
+
 8月27日更新：
 + 新收录文章：
 	+ XSS；
