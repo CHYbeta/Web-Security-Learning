@@ -1,23 +1,33 @@
 # [Web-Security-Learning](https://chybeta.github.io/2017/08/19/Web-Security-Learning/)
 
 在学习Web安全的过程中整合的一些资料。
-该repo会不断更新，最近更新日期为：2017/8/27。
+该repo会不断更新，最近更新日期为：2017/8/31。
 
 同步更新于： [chybeta: Web-Security-Learning (带目录) ](https://chybeta.github.io/2017/08/19/Web-Security-Learning/) 
 
-8月27日更新：
+8月31日更新：
 + 新增[java-web代码审计模块](https://github.com/CHYbeta/Web-Security-Learning#java-web%E4%BB%A3%E7%A0%81%E5%AE%A1%E8%AE%A1)
 + 整合[php代码审计模块](https://github.com/CHYbeta/Web-Security-Learning#php%E4%BB%A3%E7%A0%81%E5%AE%A1%E8%AE%A1)
 + 新收录文章：
-	+ XSS；
-		+ [Xssing Web With Unicodes](http://blog.rakeshmane.com/2017/08/xssing-web-part-2.html)
-		+ [XSS Tricks - 从 Self-XSS 到登录你的账户](http://blog.fr1day.me/2016/09/07/XSS_Tricks_from_selfxss_to_your_account/)
-		+ [DOMXSS Wiki](https://github.com/wisec/domxsswiki/wiki)
-	+ java-web；
-		+ [站在Java的视角，深度分析防不胜防的小偷——“XSS” ](http://mp.weixin.qq.com/s?__biz=MzIzMzgxOTQ5NA==&mid=100000340&idx=1&sn=6ca4ec15ef6338daf1d4a907351d7c08&chksm=68fe9e5d5f89174b44fd0cae2e3d5c0018859d3d1dc6d60a2e16dcde34499ba224d6ea17a982#rd)
-
+	+ 前端安全；
+		+ XSS
+			+ [先知XSS挑战赛 - L3m0n Writeup](https://mp.weixin.qq.com/s/d_UCJusUdWCRTo3Vutsk_A)
+			+ [利用XSS和CSRF漏洞远程实现PayPal合作方网站未授权账户访问](http://www.freebuf.com/vuls/144893.html)
+		+ CSRF:
+			+ [浅谈Session机制及CSRF攻防 ](https://mp.weixin.qq.com/s/aID_N9bgq91EM26qVSVBXw)
+			+ [Exploiting JSON Cross Site Request Forgery (CSRF) using Flash](http://www.geekboy.ninja/blog/exploiting-json-cross-site-request-forgery-csrf-using-flash/)
+		+ 其他：
+			+ [safari本地文件读取漏洞之扩展攻击面](http://www.wupco.cn/?p=4134)
+			+ [利用脚本注入漏洞攻击ReactJS应用程序](http://www.freebuf.com/articles/web/144988.html)
+	+ SSTI；
+		+ [Jinja2 template injection filter bypasses](https://0day.work/jinja2-template-injection-filter-bypasses/)
+	+ XXE:
+		+ [XXE-DTD Cheat Sheet](https://web-in-security.blogspot.jp/2016/03/xxe-cheat-sheet.html)
+	+ 信息搜集：
+		+ [乙方渗透测试之信息收集](http://www.cnnetarmy.com/%E4%B9%99%E6%96%B9%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95%E4%B9%8B%E4%BF%A1%E6%81%AF%E6%94%B6%E9%9B%86/)
 
 <!-- more -->
+
 # Web Security
 
 ## sql注入
@@ -93,15 +103,21 @@
 + [一个URL跳转引发的一系列“惨案” ](https://zhchbin.github.io/2016/04/09/Problems-Caused-by-URL-Redirection/)
 + [利用反射型XSS二次注入绕过CSP form-action限制](http://blog.neargle.com/SecNewsBak/drops/%E5%88%A9%E7%94%A8%E5%8F%8D%E5%B0%84%E5%9E%8BXSS%E4%BA%8C%E6%AC%A1%E6%B3%A8%E5%85%A5%E7%BB%95%E8%BF%87CSP%20form-action%E9%99%90%E5%88%B6.html)
 + [看我如何挖到GoogleMaps XSS漏洞并获得5000刀赏金](http://bobao.360.cn/learning/detail/3592.html)
++ [利用XSS和CSRF漏洞远程实现PayPal合作方网站未授权账户访问](http://www.freebuf.com/vuls/144893.html)
 + [Modern Alchemy: Turning XSS into RCE](https://blog.doyensec.com/2017/08/03/electron-framework-security.html)
++ [先知XSS挑战赛 - L3m0n Writeup](https://mp.weixin.qq.com/s/d_UCJusUdWCRTo3Vutsk_A)
 
 ### CSRF
 + [CRLF Injection and Bypass Tencent WAF ](https://zhchbin.github.io/2016/01/31/CRLF-Injection-and-Bypass-WAF/)
 + [用代码来细说Csrf漏洞危害以及防御](https://bbs.ichunqiu.com/thread-24127-1-1.html?from=sec)
 + [Cookie-Form型CSRF防御机制的不足与反思](https://www.leavesongs.com/PENETRATION/think-about-cookie-form-csrf-protected.html)
 + [关于JSON CSRF的一些思考](https://mp.weixin.qq.com/s?__biz=MzIzMTc1MjExOQ==&mid=2247484126&idx=1&sn=f437882b19bed8d99d0a00938accc0c8&chksm=e89e2a06dfe9a310506419467ada63bee80f10c32267d0b11ea7d1f5491c5afdb344c5dac74e&mpshare=1&scene=23&srcid=0614BOCQBHPjaS2IOtADI3PP#rd)
++ [Exploiting JSON Cross Site Request Forgery (CSRF) using Flash](http://www.geekboy.ninja/blog/exploiting-json-cross-site-request-forgery-csrf-using-flash/)
++ [浅谈Session机制及CSRF攻防 ](https://mp.weixin.qq.com/s/aID_N9bgq91EM26qVSVBXw)
 
 ### 其他
++ [safari本地文件读取漏洞之扩展攻击面](http://www.wupco.cn/?p=4134)
++ [利用脚本注入漏洞攻击ReactJS应用程序](http://www.freebuf.com/articles/web/144988.html)
 + [当代 Web 的 JSON 劫持技巧](http://paper.seebug.org/130/?from=timeline&isappinstalled=0)
 
 ## SSRF
@@ -136,6 +152,7 @@
 + [XXE漏洞攻防之我见](http://bobao.360.cn/learning/detail/3841.html)
 + [XXE漏洞利用的一些技巧](http://www.91ri.org/17052.html)
 + [神奇的Content-Type——在JSON中玩转XXE攻击](http://bobao.360.cn/learning/detail/360.html)
++ [XXE-DTD Cheat Sheet](https://web-in-security.blogspot.jp/2016/03/xxe-cheat-sheet.html)
 
 ## JSONP注入
 + [JSONP注入解析 ](http://www.freebuf.com/articles/web/126347.html)
@@ -145,6 +162,7 @@
 + [关于跨域和jsonp的一些理解(新手向)](https://segmentfault.com/a/1190000009577990)
 
 ## SSTI
++ [Jinja2 template injection filter bypasses](https://0day.work/jinja2-template-injection-filter-bypasses/)
 + [乱弹Flask注入](http://www.freebuf.com/articles/web/88768.html)
 + [服务端模板注入攻击 （SSTI）之浅析 ](http://www.freebuf.com/vuls/83999.html)
 + [Exploring SSTI in Flask/Jinja2](https://nvisium.com/blog/2016/03/09/exploring-ssti-in-flask-jinja2/)
@@ -311,6 +329,7 @@
 + [Pentesting Node.js Application : Nodejs Application Security(需翻墙)](http://www.websecgeeks.com/2017/04/pentesting-nodejs-application-nodejs.html)
 + [从零开始学习渗透Node.js应用程序 ](https://bbs.ichunqiu.com/thread-21810-1-1.html?from=sec)
 
+
 ## WAF相关
 + [牛逼牛逼的payload和bypass总结](https://github.com/swisskyrepo/PayloadsAllTheThings)
 + [WAF绕过参考资料](http://www.mottoin.com/100887.html)
@@ -346,6 +365,7 @@
 + [论二级域名收集的各种姿势](https://mp.weixin.qq.com/s/ardCYdZzaSjvSIZiFraWGA)
 + [我眼中的渗透测试信息搜集](https://xianzhi.aliyun.com/forum/read/451.html?fpage=2)
 + [大型目标渗透－01入侵信息搜集](https://xianzhi.aliyun.com/forum/read/1675.html)
++ [乙方渗透测试之信息收集](http://www.cnnetarmy.com/%E4%B9%99%E6%96%B9%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95%E4%B9%8B%E4%BF%A1%E6%81%AF%E6%94%B6%E9%9B%86/)
 
 ## 渗透
 + [【玩转Linux系统】Linux内网渗透 ](https://mp.weixin.qq.com/s/VJBnXq3--0HBD7eVeifOKA)
