@@ -6,8 +6,6 @@
 同步更新于： [chybeta: Web-Security-Learning (带目录) ](https://chybeta.github.io/2017/08/19/Web-Security-Learning/) 
 
 8月31日更新：
-+ 新增[java-web代码审计模块](https://github.com/CHYbeta/Web-Security-Learning#java-web%E4%BB%A3%E7%A0%81%E5%AE%A1%E8%AE%A1)
-+ 整合[php代码审计模块](https://github.com/CHYbeta/Web-Security-Learning#php%E4%BB%A3%E7%A0%81%E5%AE%A1%E8%AE%A1)
 + 新收录文章：
 	+ 前端安全；
 		+ XSS
