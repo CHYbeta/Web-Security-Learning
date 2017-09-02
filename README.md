@@ -10,7 +10,7 @@
 	+ 前端安全；
 		+ XSS
 			+ [先知XSS挑战赛 - L3m0n Writeup](https://mp.weixin.qq.com/s/d_UCJusUdWCRTo3Vutsk_A)
-			+ [利用XSS和CSRF漏洞远程实现PayPal合作方网站未授权账户访问](http://www.freebuf.com/vuls/144893.html)
+			+ [利用XSS和CSRF漏洞远程实现PayPal合作方网站未授权账户访问](http://www.freebuf.com/vuls/144893.html)+ [CRLF Injection and Bypass Tencent WAF ](https://zhchbin.github.io/2016/01/31/CRLF-Injection-and-Bypass-WAF/)
 		+ CSRF:
 			+ [浅谈Session机制及CSRF攻防 ](https://mp.weixin.qq.com/s/aID_N9bgq91EM26qVSVBXw)
 			+ [Exploiting JSON Cross Site Request Forgery (CSRF) using Flash](http://www.geekboy.ninja/blog/exploiting-json-cross-site-request-forgery-csrf-using-flash/)
@@ -90,6 +90,7 @@
 + [Bypass unsafe-inline mode CSP](http://paper.seebug.org/91/)
 + [Chrome XSS Auditor – SVG Bypass](https://brutelogic.com.br/blog/chrome-xss-auditor-svg-bypass/)
 + [Cross site scripting payload for fuzzing](https://xianzhi.aliyun.com/forum/read/1704.html)
++ [CRLF Injection and Bypass Tencent WAF ](https://zhchbin.github.io/2016/01/31/CRLF-Injection-and-Bypass-WAF/)
 + [不常见的xss利用探索](http://docs.ioin.in/writeup/wps2015.org/_2016_06_27__E4_B8_8D_E5_B8_B8_E8_A7_81_E7_9A_84xss_E5_88_A9_E7_94_A8_E6_8E_A2_E7_B4_A2_/index.html)
 + [XSS攻击另类玩法](https://bbs.ichunqiu.com/thread-25578-1-1.html?from=sec)
 + [XSS易容术---bypass之编码混淆篇+辅助脚本编写](https://bbs.ichunqiu.com/thread-17500-1-1.html?from=sec)
@@ -106,7 +107,6 @@
 + [先知XSS挑战赛 - L3m0n Writeup](https://mp.weixin.qq.com/s/d_UCJusUdWCRTo3Vutsk_A)
 
 ### CSRF
-+ [CRLF Injection and Bypass Tencent WAF ](https://zhchbin.github.io/2016/01/31/CRLF-Injection-and-Bypass-WAF/)
 + [用代码来细说Csrf漏洞危害以及防御](https://bbs.ichunqiu.com/thread-24127-1-1.html?from=sec)
 + [Cookie-Form型CSRF防御机制的不足与反思](https://www.leavesongs.com/PENETRATION/think-about-cookie-form-csrf-protected.html)
 + [关于JSON CSRF的一些思考](https://mp.weixin.qq.com/s?__biz=MzIzMTc1MjExOQ==&mid=2247484126&idx=1&sn=f437882b19bed8d99d0a00938accc0c8&chksm=e89e2a06dfe9a310506419467ada63bee80f10c32267d0b11ea7d1f5491c5afdb344c5dac74e&mpshare=1&scene=23&srcid=0614BOCQBHPjaS2IOtADI3PP#rd)
