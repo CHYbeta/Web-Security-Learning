@@ -448,4 +448,4 @@
 + [phpwind 利用哈希长度扩展攻击进行getshell](https://www.leavesongs.com/PENETRATION/phpwind-hash-length-extension-attack.html)
 + [深入理解hash长度扩展攻击（sha1为例） ](http://www.freebuf.com/articles/web/69264.html)
 + [Joomla 框架的程序执行流程及目录结构分析](http://bobao.360.cn/learning/detail/3909.html)
-+ [如何通过恶意插件在Atom中植入后门](http://bobao.360.cn/learning/detail/4268.html9
++ [如何通过恶意插件在Atom中植入后门](http://bobao.360.cn/learning/detail/4268.html)
