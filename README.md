@@ -1,30 +1,20 @@
 # [Web-Security-Learning](https://chybeta.github.io/2017/08/19/Web-Security-Learning/)
 
 在学习Web安全的过程中整合的一些资料。 
-该repo会不断更新，最近更新日期为：2017/8/31。
+该repo会不断更新，最近更新日期为：2017/9/03。
 
 同步更新于： [chybeta: Web-Security-Learning (带目录) ](https://chybeta.github.io/2017/08/19/Web-Security-Learning/) 
 
-8月31日更新：
+9月03日更新：
 + 新收录文章：
-	+ 前端安全；
-		+ XSS
-			+ [先知XSS挑战赛 - L3m0n Writeup](https://mp.weixin.qq.com/s/d_UCJusUdWCRTo3Vutsk_A)
-			+ [利用XSS和CSRF漏洞远程实现PayPal合作方网站未授权账户访问](http://www.freebuf.com/vuls/144893.html)+ [CRLF Injection and Bypass Tencent WAF ](https://zhchbin.github.io/2016/01/31/CRLF-Injection-and-Bypass-WAF/)
-		+ CSRF:
-			+ [浅谈Session机制及CSRF攻防 ](https://mp.weixin.qq.com/s/aID_N9bgq91EM26qVSVBXw)
-			+ [Exploiting JSON Cross Site Request Forgery (CSRF) using Flash](http://www.geekboy.ninja/blog/exploiting-json-cross-site-request-forgery-csrf-using-flash/)
-		+ 其他：
-			+ [safari本地文件读取漏洞之扩展攻击面](http://www.wupco.cn/?p=4134)
-			+ [利用脚本注入漏洞攻击ReactJS应用程序](http://www.freebuf.com/articles/web/144988.html)
-	+ SSTI；
-		+ [Jinja2 template injection filter bypasses](https://0day.work/jinja2-template-injection-filter-bypasses/)
-	+ XXE:
-		+ [XXE-DTD Cheat Sheet](https://web-in-security.blogspot.jp/2016/03/xxe-cheat-sheet.html)
-	+ 信息搜集：
-		+ [乙方渗透测试之信息收集](http://www.cnnetarmy.com/%E4%B9%99%E6%96%B9%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95%E4%B9%8B%E4%BF%A1%E6%81%AF%E6%94%B6%E9%9B%86/)
+	+ 代码执行；
+		+ [Command Injection/Shell Injection](https://www.exploit-db.com/docs/42593.pdf)
+		+ [How To Chain Commands in Linux](https://n0where.net/how-to-chain-commands-in-linux/)
++ 更新部分文章分类
 
 <!-- more -->
+# Web-Security-Learning
+项目地址：[Web-Security-Learning](https://github.com/CHYbeta/Web-Security-Learning)
 
 # Web Security
 
@@ -175,6 +165,7 @@
 
 
 ## 代码执行
++ [Command Injection/Shell Injection](https://www.exploit-db.com/docs/42593.pdf)
 + [PHP Code Injection Analysis](http://www.polaris-lab.com/index.php/archives/254/)
 + [	利用环境变量LD_PRELOAD来绕过php disable_function执行系统命令](http://doc.ph0en1x.com/wooyun_drops/%E5%88%A9%E7%94%A8%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8FLD_PRELOAD%E6%9D%A5%E7%BB%95%E8%BF%87php%20disable_function%E6%89%A7%E8%A1%8C%E7%B3%BB%E7%BB%9F%E5%91%BD%E4%BB%A4.html)
 + [Hack PHP mail additional_parameters](http://blog.nsfocus.net/hack-php-mail-additional_parameters/)
@@ -457,4 +448,4 @@
 + [phpwind 利用哈希长度扩展攻击进行getshell](https://www.leavesongs.com/PENETRATION/phpwind-hash-length-extension-attack.html)
 + [深入理解hash长度扩展攻击（sha1为例） ](http://www.freebuf.com/articles/web/69264.html)
 + [Joomla 框架的程序执行流程及目录结构分析](http://bobao.360.cn/learning/detail/3909.html)
-+ [如何通过恶意插件在Atom中植入后门](http://bobao.360.cn/learning/detail/4268.html)
++ [如何通过恶意插件在Atom中植入后门](http://bobao.360.cn/learning/detail/4268.html9
