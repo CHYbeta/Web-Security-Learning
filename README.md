@@ -1,21 +1,30 @@
 # [Web-Security-Learning](https://chybeta.github.io/2017/08/19/Web-Security-Learning/)
 
 在学习Web安全的过程中整合的一些资料。 
-该repo会不断更新，最近更新日期为：2017/9/03。
+该repo会不断更新，最近更新日期为：2017/9/12。
 
 同步更新于： [chybeta: Web-Security-Learning (带目录) ](https://chybeta.github.io/2017/08/19/Web-Security-Learning/) 
 
-9月03日更新：
+9月12日更新：
 + 新收录文章：
-	+ 代码执行；
-		+ [Command Injection/Shell Injection](https://www.exploit-db.com/docs/42593.pdf)
-		+ [How To Chain Commands in Linux](https://n0where.net/how-to-chain-commands-in-linux/)
-+ 更新部分文章分类
+	+ 渗透技巧：
+		+ [谈谈端口探测的经验与原理](http://www.freebuf.com/articles/network/146087.html)
+		+ [乙方渗透测试之Fuzz爆破](http://www.cnnetarmy.com/%E4%B9%99%E6%96%B9%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95%E4%B9%8BFuzz%E7%88%86%E7%A0%B4/)
+	+ 渗透实战；
+		+ [渗透测试学习笔记之案例四](http://avfisher.win/archives/784)
+		+ [记一次内网渗透](http://killbit.me/2017/09/11/%E8%AE%B0%E4%B8%80%E6%AC%A1%E5%86%85%E7%BD%91%E6%B8%97%E9%80%8F/)
+	+ XSS:
+		+ [XSS Without Dots](https://markitzeroday.com/character-restrictions/xss/2017/07/26/xss-without-dots.html)
+	+ XXE:
+	 	+ [XML? Be cautious!](https://blog.pragmatists.com/xml-be-cautious-69a981fdc56a)
+	+ SSRF:
+		+ [Use DNS Rebinding to Bypass SSRF in Java](https://mp.weixin.qq.com/s?__biz=MzIzOTQ5NjUzOQ==&mid=2247483742&idx=1&sn=e7265d5351a6d9ed30d90be1c17be041)
+	+ PHP:
+		+ [从WordPress SQLi谈PHP格式化字符串问题](https://paper.seebug.org/386/)
+	+ python-Web:
+		+ [Exploiting Python Deserialization Vulnerabilities](https://crowdshield.com/blog.php?name=exploiting-python-deserialization-vulnerabilities)
 
 <!-- more -->
-# Web-Security-Learning
-项目地址：[Web-Security-Learning](https://github.com/CHYbeta/Web-Security-Learning)
-
 # Web Security
 
 ## sql注入
@@ -81,6 +90,7 @@
 + [Chrome XSS Auditor – SVG Bypass](https://brutelogic.com.br/blog/chrome-xss-auditor-svg-bypass/)
 + [Cross site scripting payload for fuzzing](https://xianzhi.aliyun.com/forum/read/1704.html)
 + [CRLF Injection and Bypass Tencent WAF ](https://zhchbin.github.io/2016/01/31/CRLF-Injection-and-Bypass-WAF/)
++ [XSS Without Dots](https://markitzeroday.com/character-restrictions/xss/2017/07/26/xss-without-dots.html)
 + [不常见的xss利用探索](http://docs.ioin.in/writeup/wps2015.org/_2016_06_27__E4_B8_8D_E5_B8_B8_E8_A7_81_E7_9A_84xss_E5_88_A9_E7_94_A8_E6_8E_A2_E7_B4_A2_/index.html)
 + [XSS攻击另类玩法](https://bbs.ichunqiu.com/thread-25578-1-1.html?from=sec)
 + [XSS易容术---bypass之编码混淆篇+辅助脚本编写](https://bbs.ichunqiu.com/thread-17500-1-1.html?from=sec)
@@ -117,6 +127,7 @@
 + [SSRF漏洞中绕过IP限制的几种方法总结](http://www.freebuf.com/articles/web/135342.html)
 + [利用ssrf漏洞获取google内部的dns信息](http://bobao.360.cn/learning/detail/3566.html)
 + [What is Server Side Request Forgery (SSRF)?](https://www.acunetix.com/blog/articles/server-side-request-forgery-vulnerability/)
++ [Use DNS Rebinding to Bypass SSRF in Java](https://mp.weixin.qq.com/s?__biz=MzIzOTQ5NjUzOQ==&mid=2247483742&idx=1&sn=e7265d5351a6d9ed30d90be1c17be041)
 + [DNS Rebinding技术绕过SSRF/代理IP限制](http://www.mottoin.com/95734.html)
 + [Discuz ssrf漏洞利用的几个python脚本](https://phpinfo.me/2017/02/23/1438.html)
 + [Discuz X系列门户文章功能SSRF漏洞挖掘与分析](http://bobao.360.cn/learning/detail/2889.html)
@@ -125,6 +136,7 @@
 
 
 ## XXE
+
 + [浅谈XXE漏洞攻击与防御](http://thief.one/2017/06/20/1/)
 + [XXE漏洞分析](http://www.4o4notfound.org/index.php/archives/29/)
 + [XML实体注入漏洞攻与防](http://www.hackersb.cn/hacker/211.html)
@@ -141,6 +153,7 @@
 + [XXE漏洞利用的一些技巧](http://www.91ri.org/17052.html)
 + [神奇的Content-Type——在JSON中玩转XXE攻击](http://bobao.360.cn/learning/detail/360.html)
 + [XXE-DTD Cheat Sheet](https://web-in-security.blogspot.jp/2016/03/xxe-cheat-sheet.html)
++ [XML? Be cautious!](https://blog.pragmatists.com/xml-be-cautious-69a981fdc56a)
 
 ## JSONP注入
 + [JSONP注入解析 ](http://www.freebuf.com/articles/web/126347.html)
@@ -262,6 +275,7 @@
 + [PHP Email Injection Example](http://resources.infosecinstitute.com/email-injection/)
 
 ### 其他
++ [从WordPress SQLi谈PHP格式化字符串问题](https://paper.seebug.org/386/)
 + [php & apache2 &操作系统之间的一些黑魔法](http://wonderkun.cc/index.html/?p=626)
 + [php内存破坏漏洞exp编写和禁用函数绕过](http://blog.th3s3v3n.xyz/2016/05/01/bin/2016-5-1-php%E5%86%85%E5%AD%98%E7%A0%B4%E5%9D%8F%E6%BC%8F%E6%B4%9Eexp%E7%BC%96%E5%86%99%E5%92%8C%E7%A6%81%E7%94%A8%E5%87%BD%E6%95%B0%E7%BB%95%E8%BF%87/)
 + [挖掘PHP禁用函数绕过利用姿势](http://blog.th3s3v3n.xyz/2016/11/20/web/%E6%8C%96%E6%8E%98PHP%E7%A6%81%E7%94%A8%E5%87%BD%E6%95%B0%E7%BB%95%E8%BF%87%E5%88%A9%E7%94%A8%E5%A7%BF%E5%8A%BF/)
@@ -281,6 +295,8 @@
 
 ## java-Web
 ### 反序列
++ [Java-Deserialization-Cheat-Sheet
+](https://github.com/GrrrDog/Java-Deserialization-Cheat-Sheet)
 + [如何攻击Java反序列化过程](http://bobao.360.cn/learning/detail/4267.html)
 + [深入理解JAVA反序列化漏洞](https://www.vulbox.com/knowledge/detail/?id=11)
 + [Attacking Java Deserialization](https://nickbloor.co.uk/2017/08/13/attacking-java-deserialization/)
@@ -305,6 +321,7 @@
 
 
 ## python-Web
++ [Exploiting Python Deserialization Vulnerabilities](https://crowdshield.com/blog.php?name=exploiting-python-deserialization-vulnerabilities)
 + [Python 格式化字符串漏洞（Django为例）](https://www.leavesongs.com/PENETRATION/python-string-format-vulnerability.html)
 + [format注入](http://www.venenof.com/index.php/archives/360/)
 + [Be Careful with Python's New-Style String Format](http://lucumr.pocoo.org/2016/12/29/careful-with-str-format/)
@@ -396,7 +413,8 @@
 + [浅谈渗透测试实战](http://docs.ioin.in/writeup/avfisher.win/_archives_381/index.html)
 + [渗透测试学习笔记之案例一](http://avfisher.win/archives/741)
 + [渗透测试学习笔记之案例二](http://avfisher.win/archives/756)
-
++ [渗透测试学习笔记之案例四](http://avfisher.win/archives/784)
++ [记一次内网渗透](http://killbit.me/2017/09/11/%E8%AE%B0%E4%B8%80%E6%AC%A1%E5%86%85%E7%BD%91%E6%B8%97%E9%80%8F/)
 
 ## 提权
 + [提权技巧](http://www.secbox.cn/skill/5583.html)
@@ -407,11 +425,13 @@
 + [Windows提权系列中篇](https://mp.weixin.qq.com/s/ERXOLhWo0-lJbMV143I8hA)
 
 ## 渗透技巧
++ [乙方渗透测试之Fuzz爆破](http://www.cnnetarmy.com/%E4%B9%99%E6%96%B9%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95%E4%B9%8BFuzz%E7%88%86%E7%A0%B4/)
 + [域渗透神器Empire安装和简单使用 ](https://mp.weixin.qq.com/s/VqrUTW9z-yi3LqNNy-lE-Q)
 + [如何将简单的Shell转换成为完全交互式的TTY ](http://www.freebuf.com/news/142195.html)
 + [60字节 - 无文件渗透测试实验](https://www.n0tr00t.com/2017/03/09/penetration-test-without-file.html)
 + [内网渗透思路探索之新思路的探索与验证](http://www.tuicool.com/articles/fMFB3mY)
 + [Web端口复用正向后门研究实现与防御 ](http://www.freebuf.com/articles/web/142628.html)
++ [谈谈端口探测的经验与原理](http://www.freebuf.com/articles/network/146087.html)
 + [端口渗透总结](http://docs.ioin.in/writeup/blog.heysec.org/_archives_577/index.html)
 + [端口扫描那些事](https://mp.weixin.qq.com/s?__biz=MzI5MDQ2NjExOQ==&mid=2247484812&idx=1&sn=7d894b50b3947142fbfa3a4016f748d5&chksm=ec1e35a4db69bcb2acfe7ecb3b0cd1d366c54bfa1feaafc62c4290b3fd2eddab9aa95a98f041#rd)
 + [渗透技巧——通过cmd上传文件的N种方法 ](http://blog.neargle.com/SecNewsBak/drops/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7%E2%80%94%E2%80%94%E9%80%9A%E8%BF%87cmd%E4%B8%8A%E4%BC%A0%E6%96%87%E4%BB%B6%E7%9A%84N%E7%A7%8D%E6%96%B9%E6%B3%95.html)
