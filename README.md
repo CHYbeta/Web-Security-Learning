@@ -1,28 +1,28 @@
 # [Web-Security-Learning](https://chybeta.github.io/2017/08/19/Web-Security-Learning/)
 
 在学习Web安全的过程中整合的一些资料。 
-该repo会不断更新，最近更新日期为：2017/9/12。
+该repo会不断更新，最近更新日期为：2017/9/19。
 
 同步更新于： [chybeta: Web-Security-Learning (带目录) ](https://chybeta.github.io/2017/08/19/Web-Security-Learning/) 
 
-9月12日更新：
+9月19日更新：
 + 新收录文章：
-	+ 渗透技巧：
-		+ [谈谈端口探测的经验与原理](http://www.freebuf.com/articles/network/146087.html)
-		+ [乙方渗透测试之Fuzz爆破](http://www.cnnetarmy.com/%E4%B9%99%E6%96%B9%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95%E4%B9%8BFuzz%E7%88%86%E7%A0%B4/)
-	+ 渗透实战；
-		+ [渗透测试学习笔记之案例四](http://avfisher.win/archives/784)
-		+ [记一次内网渗透](http://killbit.me/2017/09/11/%E8%AE%B0%E4%B8%80%E6%AC%A1%E5%86%85%E7%BD%91%E6%B8%97%E9%80%8F/)
-	+ XSS:
-		+ [XSS Without Dots](https://markitzeroday.com/character-restrictions/xss/2017/07/26/xss-without-dots.html)
-	+ XXE:
-	 	+ [XML? Be cautious!](https://blog.pragmatists.com/xml-be-cautious-69a981fdc56a)
-	+ SSRF:
-		+ [Use DNS Rebinding to Bypass SSRF in Java](https://mp.weixin.qq.com/s?__biz=MzIzOTQ5NjUzOQ==&mid=2247483742&idx=1&sn=e7265d5351a6d9ed30d90be1c17be041)
+	+ 前端安全:
+		+ [妙用JavaScript绕过XSS过滤](http://bobao.360.cn/learning/detail/4414.html)
+		+ [如何绕过Edge、Chrome和Safari的内容安全策略](http://bobao.360.cn/learning/detail/4406.html)
+		+ [SheepSec: 7 Reflected Cross-site Scripting (XSS) Examples](http://sheepsec.com/blog/7-reflected-xss.html)
+		+ [JavaScript Dangerous Functions (Part 1) - HTML Manipulation ](http://blog.blueclosure.com/2017/09/javascript-dangerous-functions-part-1.html)
+	+ SSTI:
+		+ [Ruby ERB Template Injection](https://www.trustedsec.com/2017/09/rubyerb-template-injection/)
 	+ PHP:
-		+ [从WordPress SQLi谈PHP格式化字符串问题](https://paper.seebug.org/386/)
-	+ python-Web:
-		+ [Exploiting Python Deserialization Vulnerabilities](https://crowdshield.com/blog.php?name=exploiting-python-deserialization-vulnerabilities)
+		+ [Xdebug: A Tiny Attack Surface](https://ricterz.me/posts/Xdebug%3A%20A%20Tiny%20Attack%20Surface)
+		+ [Exploitable PHP functions](https://stackoverflow.com/questions/3115559/exploitable-php-functions)
+	+ SSRF:
+		+ [SSRF（服务器端请求伪造）测试资源](https://paper.seebug.org/393/)
+	+ 代码执行：
+		+ [从PHP源码与扩展开发谈PHP任意代码执行与防御](https://blog.zsxsoft.com/post/30)
+	+ 杂：
+		+ [High-Level Approaches for Finding Vulnerabilities](http://jackson.thuraisamy.me/finding-vulnerabilities.html)
 
 <!-- more -->
 # Web Security
@@ -79,12 +79,14 @@
 + [跨站的艺术-XSS入门与介绍](http://www.fooying.com/the-art-of-xss-1-introduction/)
 + [Content Security Policy 入门教程](https://jaq.alibaba.com/community/art/show?spm=a313e.7916646.24000001.49.ZP8rXN&articleid=518)
 + [LoRexxar-CSP](http://lorexxar.cn/tags/csp/)
++ [如何绕过Edge、Chrome和Safari的内容安全策略](http://bobao.360.cn/learning/detail/4406.html)
 + [XSS小记](https://xianzhi.aliyun.com/forum/read/196.html?fpage=7)
 + [DOMXSS Wiki](https://github.com/wisec/domxsswiki/wiki)
 + [XSS Bypass Cookbook](https://xianzhi.aliyun.com/forum/read/536.html?fpage=7)
 + [从瑞士军刀到变形金刚--XSS攻击面拓展](https://xianzhi.aliyun.com/forum/read/1988.html)
 + [我们要在任何可能的地方测试XSS漏洞 ](http://www.freebuf.com/vuls/142751.html)
 + [Alternative to Javascript Pseudo-Protocol](http://brutelogic.com.br/blog/alternative-javascript-pseudo-protocol/)
++ [妙用JavaScript绕过XSS过滤](http://bobao.360.cn/learning/detail/4414.html)
 + [Bypassing CSP using polyglot JPEGs ](http://blog.portswigger.net/2016/12/bypassing-csp-using-polyglot-jpegs.html)
 + [Bypass unsafe-inline mode CSP](http://paper.seebug.org/91/)
 + [Chrome XSS Auditor – SVG Bypass](https://brutelogic.com.br/blog/chrome-xss-auditor-svg-bypass/)
@@ -105,6 +107,7 @@
 + [利用XSS和CSRF漏洞远程实现PayPal合作方网站未授权账户访问](http://www.freebuf.com/vuls/144893.html)
 + [Modern Alchemy: Turning XSS into RCE](https://blog.doyensec.com/2017/08/03/electron-framework-security.html)
 + [先知XSS挑战赛 - L3m0n Writeup](https://mp.weixin.qq.com/s/d_UCJusUdWCRTo3Vutsk_A)
++ [SheepSec: 7 Reflected Cross-site Scripting (XSS) Examples](http://sheepsec.com/blog/7-reflected-xss.html)
 
 ### CSRF
 + [用代码来细说Csrf漏洞危害以及防御](https://bbs.ichunqiu.com/thread-24127-1-1.html?from=sec)
@@ -114,11 +117,13 @@
 + [浅谈Session机制及CSRF攻防 ](https://mp.weixin.qq.com/s/aID_N9bgq91EM26qVSVBXw)
 
 ### 其他
++ [JavaScript Dangerous Functions (Part 1) - HTML Manipulation ](http://blog.blueclosure.com/2017/09/javascript-dangerous-functions-part-1.html)
 + [safari本地文件读取漏洞之扩展攻击面](http://www.wupco.cn/?p=4134)
 + [利用脚本注入漏洞攻击ReactJS应用程序](http://www.freebuf.com/articles/web/144988.html)
 + [当代 Web 的 JSON 劫持技巧](http://paper.seebug.org/130/?from=timeline&isappinstalled=0)
 
 ## SSRF
++ [SSRF（服务器端请求伪造）测试资源](https://paper.seebug.org/393/)
 + [Build Your SSRF Exploit Framework SSRF](http://docs.ioin.in/writeup/fuzz.wuyun.org/_src_build_your_ssrf_exp_autowork_pdf/index.pdf)
 + [SSRF攻击实例解析](http://www.freebuf.com/articles/web/20407.html)
 + [SSRF漏洞分析与利用](http://www.4o4notfound.org/index.php/author/1/)
@@ -175,9 +180,10 @@
 + [Exploiting Python Code Injection in Web Applications](https://sethsec.blogspot.jp/2016/11/exploiting-python-code-injection-in-web.html)
 + [利用 Python 特性在 Jinja2 模板中执行任意代码](http://rickgray.me/2016/02/24/use-python-features-to-execute-arbitrary-codes-in-jinja2-templates.html)
 + [Python 模板字符串与模板注入](https://virusdefender.net/index.php/archives/761/)
-
++ [Ruby ERB Template Injection](https://www.trustedsec.com/2017/09/rubyerb-template-injection/)
 
 ## 代码执行
++ [从PHP源码与扩展开发谈PHP任意代码执行与防御](https://blog.zsxsoft.com/post/30)
 + [Command Injection/Shell Injection](https://www.exploit-db.com/docs/42593.pdf)
 + [PHP Code Injection Analysis](http://www.polaris-lab.com/index.php/archives/254/)
 + [	利用环境变量LD_PRELOAD来绕过php disable_function执行系统命令](http://doc.ph0en1x.com/wooyun_drops/%E5%88%A9%E7%94%A8%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8FLD_PRELOAD%E6%9D%A5%E7%BB%95%E8%BF%87php%20disable_function%E6%89%A7%E8%A1%8C%E7%B3%BB%E7%BB%9F%E5%91%BD%E4%BB%A4.html)
@@ -275,6 +281,8 @@
 + [PHP Email Injection Example](http://resources.infosecinstitute.com/email-injection/)
 
 ### 其他
++ [Xdebug: A Tiny Attack Surface](https://ricterz.me/posts/Xdebug%3A%20A%20Tiny%20Attack%20Surface)
++ [Exploitable PHP functions](https://stackoverflow.com/questions/3115559/exploitable-php-functions)
 + [从WordPress SQLi谈PHP格式化字符串问题](https://paper.seebug.org/386/)
 + [php & apache2 &操作系统之间的一些黑魔法](http://wonderkun.cc/index.html/?p=626)
 + [php内存破坏漏洞exp编写和禁用函数绕过](http://blog.th3s3v3n.xyz/2016/05/01/bin/2016-5-1-php%E5%86%85%E5%AD%98%E7%A0%B4%E5%9D%8F%E6%BC%8F%E6%B4%9Eexp%E7%BC%96%E5%86%99%E5%92%8C%E7%A6%81%E7%94%A8%E5%87%BD%E6%95%B0%E7%BB%95%E8%BF%87/)
@@ -282,6 +290,7 @@
 + [.user.ini文件构成的PHP后门](http://wooyun.jozxing.cc/static/drops/tips-3424.html)
 
 ### php代码审计
++ [PHP漏洞挖掘——进阶篇](http://blog.nsfocus.net/php-vulnerability-mining/)
 + [论PHP常见的漏洞](http://wooyun.jozxing.cc/static/drops/papers-4544.html)
 + [浅谈代码审计入门实战：某博客系统最新版审计之旅 ](http://www.freebuf.com/articles/rookie/143554.html)
 + [ctf中的php代码审计技巧](http://www.am0s.com/ctf/200.html)
@@ -461,6 +470,7 @@
 + [rcoil:CTF线下攻防赛总结](http://rcoil.me/2017/06/CTF%E7%BA%BF%E4%B8%8B%E8%B5%9B%E6%80%BB%E7%BB%93/)
 
 # 杂
++ [High-Level Approaches for Finding Vulnerabilities](http://jackson.thuraisamy.me/finding-vulnerabilities.html)
 + [谈谈HTML5本地存储——WebStorage](http://syean.cn/2017/08/15/%E8%B0%88%E8%B0%88HTML5%E6%9C%AC%E5%9C%B0%E5%AD%98%E5%82%A8%E2%80%94%E2%80%94WebStorage/)
 + [Linux下容易被忽视的那些命令用法](https://segmentfault.com/p/1210000010668099/read)
 + [各种脚本语言不同版本一句话开启 HTTP 服务器的总结](http://www.mottoin.com/94895.html)
