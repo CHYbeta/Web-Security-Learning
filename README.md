@@ -306,6 +306,7 @@
 
 ## java-Web
 ### 反序列
++ [Java 序列化与反序列化安全分析 ](http://mp.weixin.qq.com/s?__biz=MzI5ODE0ODA5MQ==&mid=2652278247&idx=1&sn=044893b732e4ffa267b00ffe1d9e4727&chksm=f7486473c03fed6525f0a869cbc4ddc03051cda92bb946377c4d831054954159542350768cf3&mpshare=1&scene=23&srcid=0919MUXFBglgDUEtLOha0wbo#rd)
 + [Java-Deserialization-Cheat-Sheet
 ](https://github.com/GrrrDog/Java-Deserialization-Cheat-Sheet)
 + [如何攻击Java反序列化过程](http://bobao.360.cn/learning/detail/4267.html)
