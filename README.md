@@ -12,7 +12,7 @@
 		+ [如何绕过Edge、Chrome和Safari的内容安全策略](http://bobao.360.cn/learning/detail/4406.html)
 		+ [SheepSec: 7 Reflected Cross-site Scripting (XSS) Examples](http://sheepsec.com/blog/7-reflected-xss.html)
 		+ [JavaScript Dangerous Functions (Part 1) - HTML Manipulation ](http://blog.blueclosure.com/2017/09/javascript-dangerous-functions-part-1.html)
-	+ SSTI:
+	+ SSTI: 
 		+ [Ruby ERB Template Injection](https://www.trustedsec.com/2017/09/rubyerb-template-injection/)
 	+ PHP:
 		+ [Xdebug: A Tiny Attack Surface](https://ricterz.me/posts/Xdebug%3A%20A%20Tiny%20Attack%20Surface)
