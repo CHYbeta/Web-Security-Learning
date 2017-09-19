@@ -17,6 +17,8 @@
 	+ PHP:
 		+ [Xdebug: A Tiny Attack Surface](https://ricterz.me/posts/Xdebug%3A%20A%20Tiny%20Attack%20Surface)
 		+ [Exploitable PHP functions](https://stackoverflow.com/questions/3115559/exploitable-php-functions)
+	+ [java-Web]:
+		+ [Java 序列化与反序列化安全分析 ](http://mp.weixin.qq.com/s?__biz=MzI5ODE0ODA5MQ==&mid=2652278247&idx=1&sn=044893b732e4ffa267b00ffe1d9e4727&chksm=f7486473c03fed6525f0a869cbc4ddc03051cda92bb946377c4d831054954159542350768cf3&mpshare=1&scene=23&srcid=0919MUXFBglgDUEtLOha0wbo#rd)
 	+ SSRF:
 		+ [SSRF（服务器端请求伪造）测试资源](https://paper.seebug.org/393/)
 	+ 代码执行：
