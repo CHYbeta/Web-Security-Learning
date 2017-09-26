@@ -1,31 +1,25 @@
 # [Web-Security-Learning](https://chybeta.github.io/2017/08/19/Web-Security-Learning/)
 
 在学习Web安全的过程中整合的一些资料。 
-该repo会不断更新，最近更新日期为：2017/9/19。
+该repo会不断更新，最近更新日期为：2017/9/26。
 
 同步更新于： [chybeta: Web-Security-Learning (带目录) ](https://chybeta.github.io/2017/08/19/Web-Security-Learning/) 
 
-9月19日更新：
+9月26日更新：
 + 新收录文章：
 	+ 前端安全:
-		+ [妙用JavaScript绕过XSS过滤](http://bobao.360.cn/learning/detail/4414.html)
-		+ [如何绕过Edge、Chrome和Safari的内容安全策略](http://bobao.360.cn/learning/detail/4406.html)
-		+ [SheepSec: 7 Reflected Cross-site Scripting (XSS) Examples](http://sheepsec.com/blog/7-reflected-xss.html)
-		+ [JavaScript Dangerous Functions (Part 1) - HTML Manipulation ](http://blog.blueclosure.com/2017/09/javascript-dangerous-functions-part-1.html)
-	+ SSTI: 
-		+ [Ruby ERB Template Injection](https://www.trustedsec.com/2017/09/rubyerb-template-injection/)
+		+ [CSP bypass by setting innerHTML on a same-origin page lacking CSP](https://bugs.chromium.org/p/chromium/issues/detail?id=764518)
+	+ 逻辑漏洞:
+		+ [A couple more common OAuth 2.0 vulnerabilities ](https://blog.avuln.com/article/4)
 	+ PHP:
-		+ [Xdebug: A Tiny Attack Surface](https://ricterz.me/posts/Xdebug%3A%20A%20Tiny%20Attack%20Surface)
-		+ [Exploitable PHP functions](https://stackoverflow.com/questions/3115559/exploitable-php-functions)
-	+ [java-Web]:
-		+ [Java 序列化与反序列化安全分析 ](http://mp.weixin.qq.com/s?__biz=MzI5ODE0ODA5MQ==&mid=2652278247&idx=1&sn=044893b732e4ffa267b00ffe1d9e4727&chksm=f7486473c03fed6525f0a869cbc4ddc03051cda92bb946377c4d831054954159542350768cf3&mpshare=1&scene=23&srcid=0919MUXFBglgDUEtLOha0wbo#rd)
-	+ SSRF:
-		+ [SSRF（服务器端请求伪造）测试资源](https://paper.seebug.org/393/)
-	+ 代码执行：
-		+ [从PHP源码与扩展开发谈PHP任意代码执行与防御](https://blog.zsxsoft.com/post/30)
+		+ [Upgrade from LFI to RCE via PHP Sessions](https://www.rcesecurity.com/2017/08/from-lfi-to-rce-via-php-sessions/)
+	+ python-Web
+		+ [Explaining and exploiting deserialization vulnerability with Python (EN)](https://dan.lousqui.fr/explaining-and-exploiting-deserialization-vulnerability-with-python-en.html)
+		+ [Defencely Clarifies Python Object Injection Exploitation](http://defencely.com/blog/defencely-clarifies-python-object-injection-exploitation/)
+		+ [Python PyYAML反序列化漏洞实验和Payload构造](http://www.polaris-lab.com/index.php/archives/375/)
 	+ 杂：
-		+ [High-Level Approaches for Finding Vulnerabilities](http://jackson.thuraisamy.me/finding-vulnerabilities.html)
-
+		+ [Exploring Compilation from TypeScript to WebAssembly](https://medium.com/web-on-the-edge/exploring-compilation-from-typescript-to-webassembly-f846d6befc12)
+		
 <!-- more -->
 # Web Security
 
@@ -81,6 +75,7 @@
 + [跨站的艺术-XSS入门与介绍](http://www.fooying.com/the-art-of-xss-1-introduction/)
 + [Content Security Policy 入门教程](https://jaq.alibaba.com/community/art/show?spm=a313e.7916646.24000001.49.ZP8rXN&articleid=518)
 + [LoRexxar-CSP](http://lorexxar.cn/tags/csp/)
++ [CSP bypass by setting innerHTML on a same-origin page lacking CSP](https://bugs.chromium.org/p/chromium/issues/detail?id=764518)
 + [如何绕过Edge、Chrome和Safari的内容安全策略](http://bobao.360.cn/learning/detail/4406.html)
 + [XSS小记](https://xianzhi.aliyun.com/forum/read/196.html?fpage=7)
 + [DOMXSS Wiki](https://github.com/wisec/domxsswiki/wiki)
@@ -218,6 +213,7 @@
 + [渗透测试方法论之文件上传](https://bbs.ichunqiu.com/thread-23193-1-1.html?from=sec)
 
 ## 逻辑漏洞
++ [A couple more common OAuth 2.0 vulnerabilities ](https://blog.avuln.com/article/4)
 + [代码审计之逻辑上传漏洞挖掘](http://wooyun.jozxing.cc/static/drops/papers-1957.html)
 + [逻辑至上——内含各种酷炫姿势](http://bobao.360.cn/learning/detail/3769.html)
 + [Web安全测试中常见逻辑漏洞解析（实战篇）](http://www.freebuf.com/vuls/112339.html)
@@ -283,6 +279,7 @@
 + [PHP Email Injection Example](http://resources.infosecinstitute.com/email-injection/)
 
 ### 其他
++ [Upgrade from LFI to RCE via PHP Sessions](https://www.rcesecurity.com/2017/08/from-lfi-to-rce-via-php-sessions/)
 + [Xdebug: A Tiny Attack Surface](https://ricterz.me/posts/Xdebug%3A%20A%20Tiny%20Attack%20Surface)
 + [Exploitable PHP functions](https://stackoverflow.com/questions/3115559/exploitable-php-functions)
 + [从WordPress SQLi谈PHP格式化字符串问题](https://paper.seebug.org/386/)
@@ -333,7 +330,10 @@
 
 
 ## python-Web
++ [Defencely Clarifies Python Object Injection Exploitation](http://defencely.com/blog/defencely-clarifies-python-object-injection-exploitation/)
 + [Exploiting Python Deserialization Vulnerabilities](https://crowdshield.com/blog.php?name=exploiting-python-deserialization-vulnerabilities)
++ [Explaining and exploiting deserialization vulnerability with Python(EN)](https://dan.lousqui.fr/explaining-and-exploiting-deserialization-vulnerability-with-python-en.html)
++ [Python PyYAML反序列化漏洞实验和Payload构造](http://www.polaris-lab.com/index.php/archives/375/)
 + [Python 格式化字符串漏洞（Django为例）](https://www.leavesongs.com/PENETRATION/python-string-format-vulnerability.html)
 + [format注入](http://www.venenof.com/index.php/archives/360/)
 + [Be Careful with Python's New-Style String Format](http://lucumr.pocoo.org/2016/12/29/careful-with-str-format/)
@@ -473,6 +473,7 @@
 + [rcoil:CTF线下攻防赛总结](http://rcoil.me/2017/06/CTF%E7%BA%BF%E4%B8%8B%E8%B5%9B%E6%80%BB%E7%BB%93/)
 
 # 杂
++ [Exploring Compilation from TypeScript to WebAssembly](https://medium.com/web-on-the-edge/exploring-compilation-from-typescript-to-webassembly-f846d6befc12)
 + [High-Level Approaches for Finding Vulnerabilities](http://jackson.thuraisamy.me/finding-vulnerabilities.html)
 + [谈谈HTML5本地存储——WebStorage](http://syean.cn/2017/08/15/%E8%B0%88%E8%B0%88HTML5%E6%9C%AC%E5%9C%B0%E5%AD%98%E5%82%A8%E2%80%94%E2%80%94WebStorage/)
 + [Linux下容易被忽视的那些命令用法](https://segmentfault.com/p/1210000010668099/read)
