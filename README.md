@@ -5,20 +5,23 @@
 
 同步更新于： [chybeta: Web-Security-Learning (带目录) ](https://chybeta.github.io/2017/08/19/Web-Security-Learning/) 
 
-9月26日更新：
+10月04日更新：
 + 新收录文章：
+	+ SQL注入:
+		+ [BypassD盾IIS防火墙SQL注入防御（多姿势）](https://xianzhi.aliyun.com/forum/read/2173.html)
+		+ [十分钟看懂MongoDB攻防实战](http://www.freebuf.com/articles/database/148823.html)
 	+ 前端安全:
-		+ [CSP bypass by setting innerHTML on a same-origin page lacking CSP](https://bugs.chromium.org/p/chromium/issues/detail?id=764518)
-	+ 逻辑漏洞:
-		+ [A couple more common OAuth 2.0 vulnerabilities ](https://blog.avuln.com/article/4)
-	+ PHP:
-		+ [Upgrade from LFI to RCE via PHP Sessions](https://www.rcesecurity.com/2017/08/from-lfi-to-rce-via-php-sessions/)
-	+ python-Web
-		+ [Explaining and exploiting deserialization vulnerability with Python (EN)](https://dan.lousqui.fr/explaining-and-exploiting-deserialization-vulnerability-with-python-en.html)
-		+ [Defencely Clarifies Python Object Injection Exploitation](http://defencely.com/blog/defencely-clarifies-python-object-injection-exploitation/)
-		+ [Python PyYAML反序列化漏洞实验和Payload构造](http://www.polaris-lab.com/index.php/archives/375/)
-	+ 杂：
-		+ [Exploring Compilation from TypeScript to WebAssembly](https://medium.com/web-on-the-edge/exploring-compilation-from-typescript-to-webassembly-f846d6befc12)
+		+ [Story of a Parameter Specific XSS! ](http://www.noob.ninja/2017/09/story-of-parameter-specific-xss.html)
+	+ python-Web:
+		+ [Python沙箱逃逸的n种姿势](https://mp.weixin.qq.com/s/PLI-yjqmA3gwk5w3KHzOyA)
+		+ [Exploiting Python PIL Module Command Execution Vulnerability](http://docs.ioin.in/writeup/github.com/_neargle_PIL_RCE_By_GhostButt/index.html)
+		+ [文件解压之过 Python中的代码执行](http://bobao.360.cn/learning/detail/4503.html)
+	+ java-Web:
+		+ [Java反序列化漏洞从理解到实践](http://bobao.360.cn/learning/detail/4474.html)
+	+ 其他:
+		+ [【脉搏沉淀系列】未授权访问漏洞总结](https://www.secpulse.com/archives/61101.html)
+	+ 运维:
+		+ [Linux应急响应姿势浅谈](http://bobao.360.cn/learning/detail/4481.html)
 		
 <!-- more -->
 # Web Security
@@ -33,6 +36,7 @@
 + [MySQL偏门技巧](http://rcoil.me/2017/05/MySQL%E5%81%8F%E9%97%A8%E6%8A%80%E5%B7%A7/)
 + [mysql注入可报错时爆表名、字段名、库名](http://www.wupco.cn/?p=4117)
 + [高级SQL注入:混淆和绕过](http://www.cnblogs.com/croot/p/3450262.html)
++ [BypassD盾IIS防火墙SQL注入防御（多姿势）](https://xianzhi.aliyun.com/forum/read/2173.html)
 
 ### MSSQL
 + [MSSQL DBA权限获取WEBSHELL的过程 ](http://fuping.site/2017/05/16/MSSQL-DBA-Permission-GET-WEBSHELL/)
@@ -44,6 +48,7 @@
 + [PostgreSQL渗透测试指南](http://bobao.360.cn/learning/detail/4135.html)
 
 ### MongoDB
++ [十分钟看懂MongoDB攻防实战](http://www.freebuf.com/articles/database/148823.html)
 + [MongoDB安全 – PHP注入检测](http://www.mottoin.com/94341.html)
 
 ### 技巧
@@ -102,6 +107,7 @@
 + [利用反射型XSS二次注入绕过CSP form-action限制](http://blog.neargle.com/SecNewsBak/drops/%E5%88%A9%E7%94%A8%E5%8F%8D%E5%B0%84%E5%9E%8BXSS%E4%BA%8C%E6%AC%A1%E6%B3%A8%E5%85%A5%E7%BB%95%E8%BF%87CSP%20form-action%E9%99%90%E5%88%B6.html)
 + [看我如何挖到GoogleMaps XSS漏洞并获得5000刀赏金](http://bobao.360.cn/learning/detail/3592.html)
 + [利用XSS和CSRF漏洞远程实现PayPal合作方网站未授权账户访问](http://www.freebuf.com/vuls/144893.html)
++ [Story of a Parameter Specific XSS! ](http://www.noob.ninja/2017/09/story-of-parameter-specific-xss.html)
 + [Modern Alchemy: Turning XSS into RCE](https://blog.doyensec.com/2017/08/03/electron-framework-security.html)
 + [先知XSS挑战赛 - L3m0n Writeup](https://mp.weixin.qq.com/s/d_UCJusUdWCRTo3Vutsk_A)
 + [SheepSec: 7 Reflected Cross-site Scripting (XSS) Examples](http://sheepsec.com/blog/7-reflected-xss.html)
@@ -114,6 +120,7 @@
 + [浅谈Session机制及CSRF攻防 ](https://mp.weixin.qq.com/s/aID_N9bgq91EM26qVSVBXw)
 
 ### 其他
++ [【脉搏沉淀系列】未授权访问漏洞总结](https://www.secpulse.com/archives/61101.html)
 + [JavaScript Dangerous Functions (Part 1) - HTML Manipulation ](http://blog.blueclosure.com/2017/09/javascript-dangerous-functions-part-1.html)
 + [safari本地文件读取漏洞之扩展攻击面](http://www.wupco.cn/?p=4134)
 + [利用脚本注入漏洞攻击ReactJS应用程序](http://www.freebuf.com/articles/web/144988.html)
@@ -303,6 +310,7 @@
 
 ## java-Web
 ### 反序列
++ [Java反序列化漏洞从理解到实践](http://bobao.360.cn/learning/detail/4474.html)
 + [Java 序列化与反序列化安全分析 ](http://mp.weixin.qq.com/s?__biz=MzI5ODE0ODA5MQ==&mid=2652278247&idx=1&sn=044893b732e4ffa267b00ffe1d9e4727&chksm=f7486473c03fed6525f0a869cbc4ddc03051cda92bb946377c4d831054954159542350768cf3&mpshare=1&scene=23&srcid=0919MUXFBglgDUEtLOha0wbo#rd)
 + [Java-Deserialization-Cheat-Sheet
 ](https://github.com/GrrrDog/Java-Deserialization-Cheat-Sheet)
@@ -340,8 +348,11 @@
 + [Python urllib HTTP头注入漏洞](http://www.tuicool.com/articles/2iIj2eR)
 + [Hack Redis via Python urllib HTTP Header Injection](https://security.tencent.com/index.php/blog/msg/106)
 + [Python Waf黑名单过滤下的一些Bypass思路](http://www.0aa.me/index.php/archives/123/)
++ [Python沙箱逃逸的n种姿势](https://mp.weixin.qq.com/s/PLI-yjqmA3gwk5w3KHzOyA)
 + [Python Sandbox Bypass](https://mp.weixin.qq.com/s?__biz=MzIzOTQ5NjUzOQ==&mid=2247483665&idx=1&sn=4b18de09738fdc5291634db1ca2dd55a)
 + [pyt: 针对 Python 应用程序的源码静态分析工具](https://github.com/python-security/pyt)
++ [Exploiting Python PIL Module Command Execution Vulnerability](http://docs.ioin.in/writeup/github.com/_neargle_PIL_RCE_By_GhostButt/index.html)
++ [文件解压之过 Python中的代码执行](http://bobao.360.cn/learning/detail/4503.html)
 
 ## Node-js
 + [Pentesting Node.js Application : Nodejs Application Security(需翻墙)](http://www.websecgeeks.com/2017/04/pentesting-nodejs-application-nodejs.html)
@@ -456,6 +467,7 @@
 + [Linux后门整理合集（脉搏推荐）](https://www.secpulse.com/archives/59674.html)
 
 ## 运维
++ [Linux应急响应姿势浅谈](http://bobao.360.cn/learning/detail/4481.html)
 + [黑客入侵应急分析手工排查](https://xianzhi.aliyun.com/forum/read/1655.html)
 + [企业常见服务漏洞检测&修复整理](http://www.mottoin.com/92742.html)
 + [Linux基线加固](https://mp.weixin.qq.com/s/0nxiZw1NUoQTjxcd3zl6Zg)
