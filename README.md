@@ -7,21 +7,8 @@
 
 10月04日更新：
 + 新收录文章：
-	+ SQL注入:
-		+ [BypassD盾IIS防火墙SQL注入防御（多姿势）](https://xianzhi.aliyun.com/forum/read/2173.html)
-		+ [十分钟看懂MongoDB攻防实战](http://www.freebuf.com/articles/database/148823.html)
-	+ 前端安全:
-		+ [Story of a Parameter Specific XSS! ](http://www.noob.ninja/2017/09/story-of-parameter-specific-xss.html)
-	+ python-Web:
-		+ [Python沙箱逃逸的n种姿势](https://mp.weixin.qq.com/s/PLI-yjqmA3gwk5w3KHzOyA)
-		+ [Exploiting Python PIL Module Command Execution Vulnerability](http://docs.ioin.in/writeup/github.com/_neargle_PIL_RCE_By_GhostButt/index.html)
-		+ [文件解压之过 Python中的代码执行](http://bobao.360.cn/learning/detail/4503.html)
-	+ java-Web:
-		+ [Java反序列化漏洞从理解到实践](http://bobao.360.cn/learning/detail/4474.html)
-	+ 其他:
-		+ [【脉搏沉淀系列】未授权访问漏洞总结](https://www.secpulse.com/archives/61101.html)
 	+ 运维:
-		+ [Linux应急响应姿势浅谈](http://bobao.360.cn/learning/detail/4481.html)
+		+ [Apache server security: 10 tips to secure installation](https://www.acunetix.com/blog/articles/10-tips-secure-apache-installation/)
 		
 <!-- more -->
 # Web Security
