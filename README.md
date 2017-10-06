@@ -44,8 +44,7 @@
 + [SQL注入之骚姿势小记](https://mp.weixin.qq.com/s/ORsciwsBGQJhFdKqceprSw)
 + [CTF比赛中SQL注入的一些经验总结 ](http://www.freebuf.com/articles/web/137094.html)
 + [如何绕过WAF/NGWAF的libinjection实现SQL注入](http://bobao.360.cn/learning/detail/3855.html)
-+ [HackMe-SQL-Injection-Challenges
-](https://github.com/breakthenet/HackMe-SQL-Injection-Challenges)
++ [HackMe-SQL-Injection-Challenges](https://github.com/breakthenet/HackMe-SQL-Injection-Challenges)
 + [绕过WAF注入](https://bbs.ichunqiu.com/thread-25397-1-1.html?from=sec)
 + [bypassGET和POST的注入防御思路分享](https://bbs.ichunqiu.com/thread-16134-1-1.html?from=sec)
 + [SQL注入的常规思路及奇葩技巧 ](https://mp.weixin.qq.com/s/hBkJ1M6LRgssNyQyati1ng)
@@ -458,6 +457,7 @@
 + [黑客入侵应急分析手工排查](https://xianzhi.aliyun.com/forum/read/1655.html)
 + [企业常见服务漏洞检测&修复整理](http://www.mottoin.com/92742.html)
 + [Linux基线加固](https://mp.weixin.qq.com/s/0nxiZw1NUoQTjxcd3zl6Zg)
++ [Apache server security: 10 tips to secure installation](https://www.acunetix.com/blog/articles/10-tips-secure-apache-installation/)
 
 # CTF
 ## 技巧总结
