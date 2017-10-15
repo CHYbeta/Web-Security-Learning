@@ -4,13 +4,23 @@
 该repo会不断更新，最近更新日期为：2017/10/04。
 
 同步更新于： [chybeta: Web-Security-Learning (带目录) ](https://chybeta.github.io/2017/08/19/Web-Security-Learning/) 
-
-10月04日更新：
+10月15日更新：
 + 新收录文章：
-	+ 运维:
-		+ [Apache server security: 10 tips to secure installation](https://www.acunetix.com/blog/articles/10-tips-secure-apache-installation/)
+	+ 文件包含
+		+ [php文件包含漏洞 ](https://chybeta.github.io/2017/10/08/php%E6%96%87%E4%BB%B6%E5%8C%85%E5%90%AB%E6%BC%8F%E6%B4%9E/)
+	+ 随机数问题：
+		+ [PHP mt_rand()随机数安全 ](https://mp.weixin.qq.com/s/3TgBKXHw3MC61qIYELanJg)
+	+ PHP其他:
+		+ [Decrypt PHP's eval based encryption with debugger ](https://mp.weixin.qq.com/s?__biz=MzIxNjU3ODMyOQ==&mid=2247483693&idx=1&sn=ed49fc13d8e09f12d87675adff18919f)
+	+ python-Web
+		+ [python web 安全总结](http://bobao.360.cn/learning/detail/4522.html)
+	+ ctf技巧总结
+		+ [CTF线下防御战 — 让你的靶机变成“铜墙铁壁”](http://bobao.360.cn/ctf/detail/210.html)
 		
 <!-- more -->
+# Web-Security-Learning
+项目地址：[Web-Security-Learning](https://github.com/CHYbeta/Web-Security-Learning)
+
 # Web Security
 
 ## sql注入
@@ -44,7 +54,8 @@
 + [SQL注入之骚姿势小记](https://mp.weixin.qq.com/s/ORsciwsBGQJhFdKqceprSw)
 + [CTF比赛中SQL注入的一些经验总结 ](http://www.freebuf.com/articles/web/137094.html)
 + [如何绕过WAF/NGWAF的libinjection实现SQL注入](http://bobao.360.cn/learning/detail/3855.html)
-+ [HackMe-SQL-Injection-Challenges](https://github.com/breakthenet/HackMe-SQL-Injection-Challenges)
++ [HackMe-SQL-Injection-Challenges
+](https://github.com/breakthenet/HackMe-SQL-Injection-Challenges)
 + [绕过WAF注入](https://bbs.ichunqiu.com/thread-25397-1-1.html?from=sec)
 + [bypassGET和POST的注入防御思路分享](https://bbs.ichunqiu.com/thread-16134-1-1.html?from=sec)
 + [SQL注入的常规思路及奇葩技巧 ](https://mp.weixin.qq.com/s/hBkJ1M6LRgssNyQyati1ng)
@@ -106,7 +117,7 @@
 + [浅谈Session机制及CSRF攻防 ](https://mp.weixin.qq.com/s/aID_N9bgq91EM26qVSVBXw)
 
 ### 其他
-+ [【脉搏沉淀系列】未授权访问漏洞总结](https://www.secpulse.com/archives/61101.html)
++ [HTML中，闭合优先的神奇标签 ](https://mp.weixin.qq.com/s?__biz=MzA4MDA1NDE3Mw==&mid=2647715481&idx=1&sn=a4d930d5a944a5a6c0361a3c6c57d3d5)
 + [JavaScript Dangerous Functions (Part 1) - HTML Manipulation ](http://blog.blueclosure.com/2017/09/javascript-dangerous-functions-part-1.html)
 + [safari本地文件读取漏洞之扩展攻击面](http://www.wupco.cn/?p=4134)
 + [利用脚本注入漏洞攻击ReactJS应用程序](http://www.freebuf.com/articles/web/144988.html)
@@ -149,6 +160,7 @@
 + [神奇的Content-Type——在JSON中玩转XXE攻击](http://bobao.360.cn/learning/detail/360.html)
 + [XXE-DTD Cheat Sheet](https://web-in-security.blogspot.jp/2016/03/xxe-cheat-sheet.html)
 + [XML? Be cautious!](https://blog.pragmatists.com/xml-be-cautious-69a981fdc56a)
++ [XSLT Server Side Injection Attacks](https://www.contextis.com/blog/xslt-server-side-injection-attacks)
 
 ## JSONP注入
 + [JSONP注入解析 ](http://www.freebuf.com/articles/web/126347.html)
@@ -185,6 +197,7 @@
 + [正则表达式使用不当引发的系统命令执行漏洞](http://bobao.360.cn/learning/detail/3609.html)
 
 ## 文件包含
++ [php文件包含漏洞 ](https://chybeta.github.io/2017/10/08/php%E6%96%87%E4%BB%B6%E5%8C%85%E5%90%AB%E6%BC%8F%E6%B4%9E/)
 + [Turning LFI into RFI](https://l.avala.mp/?p=241)
 + [PHP文件包含漏洞总结](http://wooyun.jozxing.cc/static/drops/tips-3827.html)
 + [常见文件包含发生场景与防御](http://bobao.360.cn/learning/detail/3873.html)
@@ -220,6 +233,7 @@
 + [tom0li: 逻辑漏洞小结](https://tom0li.github.io/2017/07/17/%E9%80%BB%E8%BE%91%E6%BC%8F%E6%B4%9E%E5%B0%8F%E7%BB%93/)
 
 ## 其他漏洞
++ [未授权访问漏洞总结](https://www.secpulse.com/archives/61101.html)
 + [Web之困笔记](http://www.au1ge.xyz/2017/08/09/web%E4%B9%8B%E5%9B%B0%E7%AC%94%E8%AE%B0/)
 + [常见Web源码泄露总结](http://www.mottoin.com/95749.html)
 + [Github信息泄露升级版案例](http://www.ms509.com/?p=718)
@@ -248,6 +262,7 @@
 + [php比较操作符的安全问题](http://wooyun.jozxing.cc/static/drops/tips-7679.html)
 
 ### 随机数问题
++ [PHP mt_rand()随机数安全 ](https://mp.weixin.qq.com/s/3TgBKXHw3MC61qIYELanJg)
 + [Cracking PHP rand()](http://www.sjoerdlangkemper.nl/2016/02/11/cracking-php-rand/)
 + [php里的随机数](http://5alt.me/2017/06/php%E9%87%8C%E7%9A%84%E9%9A%8F%E6%9C%BA%E6%95%B0/)
 + [php_mt_seed - PHP mt_rand() seed cracker](http://www.openwall.com/php_mt_seed/)
@@ -272,6 +287,7 @@
 + [PHP Email Injection Example](http://resources.infosecinstitute.com/email-injection/)
 
 ### 其他
++ [Decrypt PHP's eval based encryption with debugger ](https://mp.weixin.qq.com/s?__biz=MzIxNjU3ODMyOQ==&mid=2247483693&idx=1&sn=ed49fc13d8e09f12d87675adff18919f)
 + [Upgrade from LFI to RCE via PHP Sessions](https://www.rcesecurity.com/2017/08/from-lfi-to-rce-via-php-sessions/)
 + [Xdebug: A Tiny Attack Surface](https://ricterz.me/posts/Xdebug%3A%20A%20Tiny%20Attack%20Surface)
 + [Exploitable PHP functions](https://stackoverflow.com/questions/3115559/exploitable-php-functions)
@@ -324,6 +340,7 @@
 
 
 ## python-Web
++ [python web 安全总结](http://bobao.360.cn/learning/detail/4522.html)
 + [Defencely Clarifies Python Object Injection Exploitation](http://defencely.com/blog/defencely-clarifies-python-object-injection-exploitation/)
 + [Exploiting Python Deserialization Vulnerabilities](https://crowdshield.com/blog.php?name=exploiting-python-deserialization-vulnerabilities)
 + [Explaining and exploiting deserialization vulnerability with Python(EN)](https://dan.lousqui.fr/explaining-and-exploiting-deserialization-vulnerability-with-python-en.html)
@@ -461,6 +478,7 @@
 
 # CTF
 ## 技巧总结
++ [CTF线下防御战 — 让你的靶机变成“铜墙铁壁”](http://bobao.360.cn/ctf/detail/210.html)
 + [ctf-wiki](https://ctf-wiki.github.io/ctf-wiki/#/introduction)
 + [CTF中那些脑洞大开的编码和加密](https://www.hackfun.org/CTF/coding-and-encryption-of-those-brain-holes-in-CTF.html)
 + [CTF加密与解密 ](http://thief.one/2017/06/13/1/)
