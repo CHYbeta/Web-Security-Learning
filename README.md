@@ -4,19 +4,21 @@
 该repo会不断更新，最近更新日期为：2017/10/04。
 
 同步更新于： [chybeta: Web-Security-Learning (带目录) ](https://chybeta.github.io/2017/08/19/Web-Security-Learning/) 
-10月15日更新：
+10月24日更新：
 + 新收录文章：
-	+ 文件包含
-		+ [php文件包含漏洞 ](https://chybeta.github.io/2017/10/08/php%E6%96%87%E4%BB%B6%E5%8C%85%E5%90%AB%E6%BC%8F%E6%B4%9E/)
-	+ 随机数问题：
-		+ [PHP mt_rand()随机数安全 ](https://mp.weixin.qq.com/s/3TgBKXHw3MC61qIYELanJg)
-	+ PHP其他:
-		+ [Decrypt PHP's eval based encryption with debugger ](https://mp.weixin.qq.com/s?__biz=MzIxNjU3ODMyOQ==&mid=2247483693&idx=1&sn=ed49fc13d8e09f12d87675adff18919f)
-	+ python-Web
-		+ [python web 安全总结](http://bobao.360.cn/learning/detail/4522.html)
-	+ ctf技巧总结
-		+ [CTF线下防御战 — 让你的靶机变成“铜墙铁壁”](http://bobao.360.cn/ctf/detail/210.html)
-		
+	+ sql注入
+		+ [SQL注入：如何通过Python CGIHTTPServer绕过CSRF tokens](http://bobao.360.cn/learning/detail/4552.html)
+		+ [Mysql约束攻击](https://ch1st.github.io/2017/10/19/Mysql%E7%BA%A6%E6%9D%9F%E6%94%BB%E5%87%BB/)
+	+ CSRF
+		+ [Wiping Out CSRF](https://medium.com/@jrozner/wiping-out-csrf-ded97ae7e83f)
+	+ Java
+		+ [从反射链的构造看Java反序列漏洞](http://www.freebuf.com/news/150872.html)
+		+ [Java反序列化漏洞从理解到实践 ](http://www.freebuf.com/articles/web/149931.html)
+		+ [关于 JNDI 注入](http://bobao.360.cn/learning/detail/4564.html)
+	+ python
+		+ [利用内存破坏实现Python沙盒逃逸 ](https://mp.weixin.qq.com/s/s9fAskmp4Bb42OYsiQJFaw)
+	+ 渗透
+		+ [linux各种一句话反弹shell总结](http://bobao.360.cn/learning/detail/4551.html)
 <!-- more -->
 # Web-Security-Learning
 项目地址：[Web-Security-Learning](https://github.com/CHYbeta/Web-Security-Learning)
@@ -34,6 +36,8 @@
 + [mysql注入可报错时爆表名、字段名、库名](http://www.wupco.cn/?p=4117)
 + [高级SQL注入:混淆和绕过](http://www.cnblogs.com/croot/p/3450262.html)
 + [BypassD盾IIS防火墙SQL注入防御（多姿势）](https://xianzhi.aliyun.com/forum/read/2173.html)
++ [SQL注入：如何通过Python CGIHTTPServer绕过CSRF tokens](http://bobao.360.cn/learning/detail/4552.html)
++ [Mysql约束攻击](https://ch1st.github.io/2017/10/19/Mysql%E7%BA%A6%E6%9D%9F%E6%94%BB%E5%87%BB/)
 
 ### MSSQL
 + [MSSQL DBA权限获取WEBSHELL的过程 ](http://fuping.site/2017/05/16/MSSQL-DBA-Permission-GET-WEBSHELL/)
@@ -110,6 +114,7 @@
 + [SheepSec: 7 Reflected Cross-site Scripting (XSS) Examples](http://sheepsec.com/blog/7-reflected-xss.html)
 
 ### CSRF
++ [Wiping Out CSRF](https://medium.com/@jrozner/wiping-out-csrf-ded97ae7e83f)
 + [用代码来细说Csrf漏洞危害以及防御](https://bbs.ichunqiu.com/thread-24127-1-1.html?from=sec)
 + [Cookie-Form型CSRF防御机制的不足与反思](https://www.leavesongs.com/PENETRATION/think-about-cookie-form-csrf-protected.html)
 + [关于JSON CSRF的一些思考](https://mp.weixin.qq.com/s?__biz=MzIzMTc1MjExOQ==&mid=2247484126&idx=1&sn=f437882b19bed8d99d0a00938accc0c8&chksm=e89e2a06dfe9a310506419467ada63bee80f10c32267d0b11ea7d1f5491c5afdb344c5dac74e&mpshare=1&scene=23&srcid=0614BOCQBHPjaS2IOtADI3PP#rd)
@@ -312,6 +317,7 @@
 
 ## java-Web
 ### 反序列
++ [从反射链的构造看Java反序列漏洞](http://www.freebuf.com/news/150872.html)
 + [Java反序列化漏洞从理解到实践](http://bobao.360.cn/learning/detail/4474.html)
 + [Java 序列化与反序列化安全分析 ](http://mp.weixin.qq.com/s?__biz=MzI5ODE0ODA5MQ==&mid=2652278247&idx=1&sn=044893b732e4ffa267b00ffe1d9e4727&chksm=f7486473c03fed6525f0a869cbc4ddc03051cda92bb946377c4d831054954159542350768cf3&mpshare=1&scene=23&srcid=0919MUXFBglgDUEtLOha0wbo#rd)
 + [Java-Deserialization-Cheat-Sheet
@@ -331,6 +337,7 @@
 + [Java代码审计连载之—添油加醋](https://bbs.ichunqiu.com/forum.php?mod=viewthread&tid=25475&highlight=Java%E4%BB%A3%E7%A0%81%E5%AE%A1%E8%AE%A1%E8%BF%9E%E8%BD%BD)
 
 ### 其他
++ [关于 JNDI 注入](http://bobao.360.cn/learning/detail/4564.html)
 + [层层放大java审计的攻击面 ](https://mp.weixin.qq.com/s/WT1EXEryUGGqHQpSi959xw)
 + [以Java的视角来聊聊SQL注入 ](https://mp.weixin.qq.com/s?__biz=MzIzMzgxOTQ5NA==&mid=2247483954&idx=1&sn=418b7e55b16c717ee5140af990298e22&chksm=e8fe9e3bdf89172d0670690060944bf2434cc2d2e8fba4477711299a0775cf3735a2022c0778#rd)
 + [站在Java的视角，深度分析防不胜防的小偷——“XSS” ](http://mp.weixin.qq.com/s?__biz=MzIzMzgxOTQ5NA==&mid=100000340&idx=1&sn=6ca4ec15ef6338daf1d4a907351d7c08&chksm=68fe9e5d5f89174b44fd0cae2e3d5c0018859d3d1dc6d60a2e16dcde34499ba224d6ea17a982#rd)
@@ -352,6 +359,7 @@
 + [Hack Redis via Python urllib HTTP Header Injection](https://security.tencent.com/index.php/blog/msg/106)
 + [Python Waf黑名单过滤下的一些Bypass思路](http://www.0aa.me/index.php/archives/123/)
 + [Python沙箱逃逸的n种姿势](https://mp.weixin.qq.com/s/PLI-yjqmA3gwk5w3KHzOyA)
++ [利用内存破坏实现Python沙盒逃逸 ](https://mp.weixin.qq.com/s/s9fAskmp4Bb42OYsiQJFaw)
 + [Python Sandbox Bypass](https://mp.weixin.qq.com/s?__biz=MzIzOTQ5NjUzOQ==&mid=2247483665&idx=1&sn=4b18de09738fdc5291634db1ca2dd55a)
 + [pyt: 针对 Python 应用程序的源码静态分析工具](https://github.com/python-security/pyt)
 + [Exploiting Python PIL Module Command Execution Vulnerability](http://docs.ioin.in/writeup/github.com/_neargle_PIL_RCE_By_GhostButt/index.html)
@@ -410,6 +418,7 @@
 + [内网转发姿势](http://www.03sec.com/3141.shtml)
 + [内网转发的工具](https://mp.weixin.qq.com/s/EWL9-AUB_bTf7pU4S4A2zg)
 + [Linux 下多种反弹 shell 方法](http://www.03sec.com/3140.shtml)
++ [linux各种一句话反弹shell总结](http://bobao.360.cn/learning/detail/4551.html)
 + [php 反弹shell](http://wolvez.club/?p=458)
 + [利用ew轻松穿透多级目标内网](https://klionsec.github.io/2017/08/05/ew-tunnel/)
 + [windows内网渗透杂谈](https://bl4ck.in/penetration/2017/03/20/windows%E5%86%85%E7%BD%91%E6%B8%97%E9%80%8F%E6%9D%82%E8%B0%88.html)
@@ -490,6 +499,7 @@
 + [rcoil:CTF线下攻防赛总结](http://rcoil.me/2017/06/CTF%E7%BA%BF%E4%B8%8B%E8%B5%9B%E6%80%BB%E7%BB%93/)
 
 # 杂
++ [细致分析Padding Oracle渗透测试全解析 ](http://www.freebuf.com/articles/database/150606.html)
 + [Exploring Compilation from TypeScript to WebAssembly](https://medium.com/web-on-the-edge/exploring-compilation-from-typescript-to-webassembly-f846d6befc12)
 + [High-Level Approaches for Finding Vulnerabilities](http://jackson.thuraisamy.me/finding-vulnerabilities.html)
 + [谈谈HTML5本地存储——WebStorage](http://syean.cn/2017/08/15/%E8%B0%88%E8%B0%88HTML5%E6%9C%AC%E5%9C%B0%E5%AD%98%E5%82%A8%E2%80%94%E2%80%94WebStorage/)
