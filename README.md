@@ -4,21 +4,28 @@
 该repo会不断更新，最近更新日期为：2017/10/24。
 
 同步更新于： [chybeta: Web-Security-Learning (带目录) ](https://chybeta.github.io/2017/08/19/Web-Security-Learning/) 
-10月24日更新：
+11月2日更新：
 + 新收录文章：
-	+ sql注入
-		+ [SQL注入：如何通过Python CGIHTTPServer绕过CSRF tokens](http://bobao.360.cn/learning/detail/4552.html)
-		+ [Mysql约束攻击](https://ch1st.github.io/2017/10/19/Mysql%E7%BA%A6%E6%9D%9F%E6%94%BB%E5%87%BB/)
-	+ CSRF
-		+ [Wiping Out CSRF](https://medium.com/@jrozner/wiping-out-csrf-ded97ae7e83f)
-	+ Java
-		+ [从反射链的构造看Java反序列漏洞](http://www.freebuf.com/news/150872.html)
-		+ [Java反序列化漏洞从理解到实践 ](http://www.freebuf.com/articles/web/149931.html)
-		+ [关于 JNDI 注入](http://bobao.360.cn/learning/detail/4564.html)
-	+ python
-		+ [利用内存破坏实现Python沙盒逃逸 ](https://mp.weixin.qq.com/s/s9fAskmp4Bb42OYsiQJFaw)
-	+ 渗透
-		+ [linux各种一句话反弹shell总结](http://bobao.360.cn/learning/detail/4551.html)
+	+ SQL注入
+		+ [sqlmap自带的tamper你了解多少？ ](https://mp.weixin.qq.com/s/vEEoMacmETUA4yZODY8xMQ)
+	+ XSS
+		+ [前端防御从入门到弃坑--CSP变迁](https://paper.seebug.org/423/)
+	+ ssrf
+		+ [SSRF:CVE-2017-9993 FFmpeg + AVI + HLS](https://hackmd.io/p/H1B9zOg_W#)
+	+ CSRF		
+		+ [CSRF 花式绕过Referer技巧](https://www.ohlinge.cn/web/csrf_referer.html)
+		+ [各大SRC中的CSRF技巧](http://www.freebuf.com/column/151816.html)
+	+ java-Web
+		+ [Java安全之反序列化漏洞分析 ](https://mp.weixin.qq.com/s?__biz=MzIzMzgxOTQ5NA==&mid=2247484200&idx=1&sn=8f3201f44e6374d65589d00d91f7148e)
+	+ 运维
+		+ [互联网企业安全之端口监控 ](https://mp.weixin.qq.com/s/SJKeXegWG3OQo4r0nBs7xQ)
+	+ DDOS
+		+ [DDoS攻防补遗 ](https://yq.aliyun.com/articles/1795)
+		+ [反射DDOS攻击防御的一点小想法 ](http://www.freebuf.com/column/138163.html)
+		+ [DDOS攻击方式总结](https://www.secpulse.com/archives/64088.html	)
+		+ [freeBuf专栏 ](http://www.freebuf.com/author/%e9%bb%91%e6%88%88%e7%88%be)
+	+ CTF
+		+ [CTF内存取证入坑指南！稳！](http://www.freebuf.com/column/152545.html)
 <!-- more -->
 # Web-Security-Learning
 项目地址：[Web-Security-Learning](https://github.com/CHYbeta/Web-Security-Learning)
@@ -67,6 +74,7 @@
 
 
 ### 工具
++ [sqlmap自带的tamper你了解多少？ ](https://mp.weixin.qq.com/s/vEEoMacmETUA4yZODY8xMQ)
 + [使用burp macros和sqlmap绕过csrf防护进行sql注入](http://bobao.360.cn/learning/detail/3557.html)
 + [sqlmap 使用总结 ](http://www.zerokeeper.com/web-security/sqlmap-usage-summary.html)
 + [SQLmap tamper脚本注释](http://www.lengbaikai.net/?p=110)
@@ -81,6 +89,7 @@
 + [跨站的艺术-XSS入门与介绍](http://www.fooying.com/the-art-of-xss-1-introduction/)
 + [Content Security Policy 入门教程](https://jaq.alibaba.com/community/art/show?spm=a313e.7916646.24000001.49.ZP8rXN&articleid=518)
 + [LoRexxar-CSP](http://lorexxar.cn/tags/csp/)
++ [前端防御从入门到弃坑--CSP变迁](https://paper.seebug.org/423/)
 + [CSP bypass by setting innerHTML on a same-origin page lacking CSP](https://bugs.chromium.org/p/chromium/issues/detail?id=764518)
 + [如何绕过Edge、Chrome和Safari的内容安全策略](http://bobao.360.cn/learning/detail/4406.html)
 + [XSS小记](https://xianzhi.aliyun.com/forum/read/196.html?fpage=7)
@@ -120,6 +129,8 @@
 + [关于JSON CSRF的一些思考](https://mp.weixin.qq.com/s?__biz=MzIzMTc1MjExOQ==&mid=2247484126&idx=1&sn=f437882b19bed8d99d0a00938accc0c8&chksm=e89e2a06dfe9a310506419467ada63bee80f10c32267d0b11ea7d1f5491c5afdb344c5dac74e&mpshare=1&scene=23&srcid=0614BOCQBHPjaS2IOtADI3PP#rd)
 + [Exploiting JSON Cross Site Request Forgery (CSRF) using Flash](http://www.geekboy.ninja/blog/exploiting-json-cross-site-request-forgery-csrf-using-flash/)
 + [浅谈Session机制及CSRF攻防 ](https://mp.weixin.qq.com/s/aID_N9bgq91EM26qVSVBXw)
++ [CSRF 花式绕过Referer技巧](https://www.ohlinge.cn/web/csrf_referer.html)
++ [各大SRC中的CSRF技巧](http://www.freebuf.com/column/151816.html)
 
 ### 其他
 + [HTML中，闭合优先的神奇标签 ](https://mp.weixin.qq.com/s?__biz=MzA4MDA1NDE3Mw==&mid=2647715481&idx=1&sn=a4d930d5a944a5a6c0361a3c6c57d3d5)
@@ -129,6 +140,7 @@
 + [当代 Web 的 JSON 劫持技巧](http://paper.seebug.org/130/?from=timeline&isappinstalled=0)
 
 ## SSRF
++ [SSRF:CVE-2017-9993 FFmpeg + AVI + HLS](https://hackmd.io/p/H1B9zOg_W#)
 + [SSRF（服务器端请求伪造）测试资源](https://paper.seebug.org/393/)
 + [Build Your SSRF Exploit Framework SSRF](http://docs.ioin.in/writeup/fuzz.wuyun.org/_src_build_your_ssrf_exp_autowork_pdf/index.pdf)
 + [SSRF攻击实例解析](http://www.freebuf.com/articles/web/20407.html)
@@ -326,6 +338,7 @@
 + [深入理解JAVA反序列化漏洞](https://www.vulbox.com/knowledge/detail/?id=11)
 + [Attacking Java Deserialization](https://nickbloor.co.uk/2017/08/13/attacking-java-deserialization/)
 + [jackson反序列化详细分析](http://bobao.360.cn/learning/detail/4118.html)
++ [Java安全之反序列化漏洞分析 ](https://mp.weixin.qq.com/s?__biz=MzIzMzgxOTQ5NA==&mid=2247484200&idx=1&sn=8f3201f44e6374d65589d00d91f7148e)
 
 ### Struct2
 + [Struts2 命令执行系列回顾](http://www.zerokeeper.com/vul-analysis/struts2-command-execution-series-review.html)
@@ -479,11 +492,18 @@
 + [Linux后门整理合集（脉搏推荐）](https://www.secpulse.com/archives/59674.html)
 
 ## 运维
++ [互联网企业安全之端口监控 ](https://mp.weixin.qq.com/s/SJKeXegWG3OQo4r0nBs7xQ)
 + [Linux应急响应姿势浅谈](http://bobao.360.cn/learning/detail/4481.html)
 + [黑客入侵应急分析手工排查](https://xianzhi.aliyun.com/forum/read/1655.html)
 + [企业常见服务漏洞检测&修复整理](http://www.mottoin.com/92742.html)
 + [Linux基线加固](https://mp.weixin.qq.com/s/0nxiZw1NUoQTjxcd3zl6Zg)
 + [Apache server security: 10 tips to secure installation](https://www.acunetix.com/blog/articles/10-tips-secure-apache-installation/)
+
+## DDOS
++ [DDoS攻防补遗 ](https://yq.aliyun.com/articles/1795)
++ [反射DDOS攻击防御的一点小想法 ](http://www.freebuf.com/column/138163.html)
++ [DDOS攻击方式总结](https://www.secpulse.com/archives/64088.html	)
++ [freeBuf专栏 ](http://www.freebuf.com/author/%e9%bb%91%e6%88%88%e7%88%be)
 
 # CTF
 ## 技巧总结
@@ -497,6 +517,7 @@
 + [十五个Web狗的CTF出题套路](http://weibo.com/ttarticle/p/show?id=2309403980950244591011)
 + [CTF备忘录](https://827977014.docs.qq.com/Bt2v7IZWnYo?type=1&_wv=1&_bid=2517)
 + [rcoil:CTF线下攻防赛总结](http://rcoil.me/2017/06/CTF%E7%BA%BF%E4%B8%8B%E8%B5%9B%E6%80%BB%E7%BB%93/)
++ [CTF内存取证入坑指南！稳！](http://www.freebuf.com/column/152545.html)
 
 # 杂
 + [细致分析Padding Oracle渗透测试全解析 ](http://www.freebuf.com/articles/database/150606.html)
