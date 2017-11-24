@@ -305,7 +305,7 @@
 + [LFI、RFI、PHP封装协议安全问题学习](http://www.cnblogs.com/LittleHann/p/3665062.html)
 
 ### 序列化
-+ [PHP反序列化漏洞](bobao.360.cn/learning/detail/4122.html)
++ [PHP反序列化漏洞](http://bobao.360.cn/learning/detail/4122.html)
 + [浅谈php反序列化漏洞 ](https://chybeta.github.io/2017/06/17/%E6%B5%85%E8%B0%88php%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E6%BC%8F%E6%B4%9E/)
 + [PHP反序列化漏洞成因及漏洞挖掘技巧与案例](http://bobao.360.cn/learning/detail/3193.html)
 
