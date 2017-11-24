@@ -154,7 +154,7 @@
 + [SSRF（服务器端请求伪造）测试资源](https://paper.seebug.org/393/)
 + [Build Your SSRF Exploit Framework SSRF](http://docs.ioin.in/writeup/fuzz.wuyun.org/_src_build_your_ssrf_exp_autowork_pdf/index.pdf)
 + [SSRF攻击实例解析](http://www.freebuf.com/articles/web/20407.html)
-+ [SSRF漏洞分析与利用](http://www.4o4notfound.org/index.php/author/1/)
++ [SSRF漏洞分析与利用](http://www.4o4notfound.org/index.php/archives/33/)
 + [SSRF漏洞的挖掘经验](https://www.secpulse.com/archives/4747.html)
 + [SSRF漏洞的利用与学习](http://uknowsec.cn/posts/notes/SSRF%E6%BC%8F%E6%B4%9E%E7%9A%84%E5%88%A9%E7%94%A8%E4%B8%8E%E5%AD%A6%E4%B9%A0.html)
 + [SSRF漏洞中绕过IP限制的几种方法总结](http://www.freebuf.com/articles/web/135342.html)
