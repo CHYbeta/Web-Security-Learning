@@ -1,38 +1,41 @@
 # [Web-Security-Learning](https://chybeta.github.io/2017/08/19/Web-Security-Learning/)
 
 在学习Web安全的过程中整合的一些资料。 
-该repo会不断更新，最近更新日期为：2017/11/24。
+该repo会不断更新，最近更新日期为：2017/12/21。
 
 同步更新于： [chybeta: Web-Security-Learning (带目录) ](https://chybeta.github.io/2017/08/19/Web-Security-Learning/) 
-11月24日更新：
+12月21日更新：
 + 新收录文章
-	+ SQL注入		
-		+ [Mysql数据库渗透及漏洞利用总结 ](https://xianzhi.aliyun.com/forum/topic/1491/)
-	+ Node-js
-		+ [浅谈Node.js Web的安全问题](http://www.freebuf.com/articles/web/152891.html)
-		+ [node.js + postgres 从注入到Getshell](https://www.leavesongs.com/PENETRATION/node-postgres-code-execution-vulnerability.html)
+	+ sql注入
+		+ [SQL注入的“冷门姿势” ](http://www.freebuf.com/articles/web/155876.html)
+		+ [MySQL绕过WAF实战技巧 ](http://www.freebuf.com/articles/web/155570.html)
+		+ [NetSPI SQL Injection Wiki](https://sqlwiki.netspi.com/)
+	+ XSS
+		+ [Browser's XSS Filter Bypass Cheat Sheet](https://github.com/masatokinugawa/filterbypass/wiki/Browser's-XSS-Filter-Bypass-Cheat-Sheet)
+	+ SSRF
+		+ [SSRF in JAVA](https://xianzhi.aliyun.com/forum/topic/1712/)
+	+ XXE
+		+ [Java XXE Vulnerability](https://joychou.org/web/java-xxe-vulnerability.html)
+		+ [xml-attacks.md](https://gist.github.com/mgeeky/4f726d3b374f0a34267d4f19c9004870)
+	+ 命令执行
+		+ [命令注入突破长度限制 ](http://www.freebuf.com/articles/web/154453.html)
+	+ 文件上传 / 解析漏洞
+		+ [文件上传和WAF的攻与防](https://www.secfree.com/article-585.html)
+		+ [关于文件名解析的一些探索](https://landgrey.me/filetype-parsing-attack/)
 	+ java-Web
-		+ [Java_JSON反序列化之殇_看雪安全开发者峰会](https://github.com/shengqi158/fastjson-remote-code-execute-poc/blob/master/Java_JSON%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E4%B9%8B%E6%AE%87_%E7%9C%8B%E9%9B%AA%E5%AE%89%E5%85%A8%E5%BC%80%E5%8F%91%E8%80%85%E5%B3%B0%E4%BC%9A.pdf)
-		+ [JAVA代码审计的一些Tips(附脚本)](https://xianzhi.aliyun.com/forum/topic/1633/)
-	+ PHP
-		+ [对于Php Shell Bypass思路总结](https://www.inksec.cn/2017/11/06/bypass_shell_4/)
+		+ [在 Runtime.getRuntime().exec(String cmd) 中执行任意shell命令的几种方法](https://mp.weixin.qq.com/s/zCe_O37rdRqgN-Yvlq1FDg)
+		+ [JAVA安全编码与代码审计.md](https://github.com/Cryin/JavaID/blob/master/JAVA%E5%AE%89%E5%85%A8%E7%BC%96%E7%A0%81%E4%B8%8E%E4%BB%A3%E7%A0%81%E5%AE%A1%E8%AE%A1.md)
+	+ php代码审计
+		+ [PHP 代码审计小结 (一) ](https://www.chery666.cn/blog/2017/12/11/Code-audit.html)
+	+ Node-js
+		+ [Node.js 中遇到含空格 URL 的神奇“Bug”——小范围深入 HTTP 协议](https://segmentfault.com/a/1190000012407268)
 	+ 运维
-		+ [饿了么运维基础设施进化史 ](https://mp.weixin.qq.com/s?__biz=MzA4Nzg5Nzc5OA==&mid=2651668800&idx=1&sn=615af5f120d1298475aaf4825009cb30&chksm=8bcb82e9bcbc0bff6309d9bbaf69cfc591624206b846e00d5004a68182c934dab921b7c25794&scene=38#wechat_redirect)
-		+ [美团外卖自动化业务运维系统建设](https://tech.meituan.com/digger_share.html)
-		+ [nginx配置一篇足矣](http://www.xuxiaobo.com/?p=3869)
-		+ [Docker Remote API的安全配置 ](http://p0sec.net/index.php/archives/115/)
-		+ [Apache服务器安全配置 ](http://foreversong.cn/archives/789)
-		+ [IIS服务器安全配置](http://foreversong.cn/archives/803)
-		+ [Tomcat服务器安全配置](http://foreversong.cn/archives/816)
-	+ DDOS
-		+ [DDoS防御和DDoS防护方法 你帮忙看看这7个说法靠不靠谱](http://toutiao.secjia.com/ddos-7tips)
-		+ [DDoS防御和DDoS防护 来看个人站长、果壳网和安全公司怎么说 ](http://toutiao.secjia.com/ddos-prevention-protection)
-		+ [DDoS防御之大流量DDoS防护方案 还有计算器估算损失](http://toutiao.secjia.com/ddos-prevention-protection-2)
-		+ [遭受CC攻击的处理](http://www.xuxiaobo.com/?p=3923)
-	+ 提权
-		+ [获取SYSTEM权限的多种姿势](http://bobao.360.cn/learning/detail/4740.html)
-	+ Waf相关
-		+ [详谈WAF与静态统计分析](http://bobao.360.cn/learning/detail/4670.html)
+		+ [Linux服务器上监控网络带宽的18个常用命令](http://www.xuxiaobo.com/?p=3950)
+		+ [Oracle数据库运维中的攻防实战（全） ](https://mp.weixin.qq.com/s/dpvBo6Bat5u4t8kSFRcv9w)
+		+ [安全运维那些洞 ](https://mp.weixin.qq.com/s/5TfAF5-HR8iDA_qSIJkQ0Q)
+	+ 其他漏洞
+		+ [未授权访问漏洞的检测与利用 ](https://thief.one/2017/12/08/1/)
+		+ [技术详解：基于Web的LDAP注入漏洞](http://www.4hou.com/technology/9090.html)
 		
 <!-- more -->
 # Web-Security-Learning
@@ -54,6 +57,9 @@
 + [SQL注入：如何通过Python CGIHTTPServer绕过CSRF tokens](http://bobao.360.cn/learning/detail/4552.html)
 + [Mysql约束攻击](https://ch1st.github.io/2017/10/19/Mysql%E7%BA%A6%E6%9D%9F%E6%94%BB%E5%87%BB/)
 + [Mysql数据库渗透及漏洞利用总结 ](https://xianzhi.aliyun.com/forum/topic/1491/)
++ [MySQL绕过WAF实战技巧 ](http://www.freebuf.com/articles/web/155570.html)
++ [NetSPI SQL Injection Wiki](https://sqlwiki.netspi.com/)
++ [SQL注入的“冷门姿势” ](http://www.freebuf.com/articles/web/155876.html)
 
 ### MSSQL
 + [MSSQL DBA权限获取WEBSHELL的过程 ](http://fuping.site/2017/05/16/MSSQL-DBA-Permission-GET-WEBSHELL/)
@@ -130,6 +136,7 @@
 + [Modern Alchemy: Turning XSS into RCE](https://blog.doyensec.com/2017/08/03/electron-framework-security.html)
 + [先知XSS挑战赛 - L3m0n Writeup](https://mp.weixin.qq.com/s/d_UCJusUdWCRTo3Vutsk_A)
 + [SheepSec: 7 Reflected Cross-site Scripting (XSS) Examples](http://sheepsec.com/blog/7-reflected-xss.html)
++ [Browser's XSS Filter Bypass Cheat Sheet](https://github.com/masatokinugawa/filterbypass/wiki/Browser's-XSS-Filter-Bypass-Cheat-Sheet)
 
 ### CSRF
 + [Wiping Out CSRF](https://medium.com/@jrozner/wiping-out-csrf-ded97ae7e83f)
@@ -161,6 +168,7 @@
 + [利用ssrf漏洞获取google内部的dns信息](http://bobao.360.cn/learning/detail/3566.html)
 + [What is Server Side Request Forgery (SSRF)?](https://www.acunetix.com/blog/articles/server-side-request-forgery-vulnerability/)
 + [Use DNS Rebinding to Bypass SSRF in Java](https://mp.weixin.qq.com/s?__biz=MzIzOTQ5NjUzOQ==&mid=2247483742&idx=1&sn=e7265d5351a6d9ed30d90be1c17be041)
++ [SSRF in JAVA](https://xianzhi.aliyun.com/forum/topic/1712/)
 + [DNS Rebinding技术绕过SSRF/代理IP限制](http://www.mottoin.com/95734.html)
 + [Discuz ssrf漏洞利用的几个python脚本](https://phpinfo.me/2017/02/23/1438.html)
 + [Discuz X系列门户文章功能SSRF漏洞挖掘与分析](http://bobao.360.cn/learning/detail/2889.html)
@@ -188,6 +196,8 @@
 + [XXE-DTD Cheat Sheet](https://web-in-security.blogspot.jp/2016/03/xxe-cheat-sheet.html)
 + [XML? Be cautious!](https://blog.pragmatists.com/xml-be-cautious-69a981fdc56a)
 + [XSLT Server Side Injection Attacks](https://www.contextis.com/blog/xslt-server-side-injection-attacks)
++ [Java XXE Vulnerability](https://joychou.org/web/java-xxe-vulnerability.html)
++ [xml-attacks.md](https://gist.github.com/mgeeky/4f726d3b374f0a34267d4f19c9004870)
 
 ## JSONP注入
 + [JSONP注入解析 ](http://www.freebuf.com/articles/web/126347.html)
@@ -211,7 +221,7 @@
 + [Python 模板字符串与模板注入](https://virusdefender.net/index.php/archives/761/)
 + [Ruby ERB Template Injection](https://www.trustedsec.com/2017/09/rubyerb-template-injection/)
 
-## 代码执行
+## 代码执行 / 命令执行
 + [从PHP源码与扩展开发谈PHP任意代码执行与防御](https://blog.zsxsoft.com/post/30)
 + [Command Injection/Shell Injection](https://www.exploit-db.com/docs/42593.pdf)
 + [PHP Code Injection Analysis](http://www.polaris-lab.com/index.php/archives/254/)
@@ -222,7 +232,7 @@
 + [BigTree CMS - Bypass CSRF filter and execute code with PHPMailer](https://www.cdxy.me/?p=765)
 + [基于时间反馈的RCE](http://www.mottoin.com/97678.html)
 + [正则表达式使用不当引发的系统命令执行漏洞](http://bobao.360.cn/learning/detail/3609.html)
-
++ [命令注入突破长度限制 ](http://www.freebuf.com/articles/web/154453.html)
 ## 文件包含
 + [php文件包含漏洞 ](https://chybeta.github.io/2017/10/08/php%E6%96%87%E4%BB%B6%E5%8C%85%E5%90%AB%E6%BC%8F%E6%B4%9E/)
 + [Turning LFI into RFI](https://l.avala.mp/?p=241)
@@ -235,6 +245,7 @@
 
 
 ## 文件上传 / 解析漏洞
++ [文件上传和WAF的攻与防](https://www.secfree.com/article-585.html)
 + [我的WafBypass之道（upload篇）](https://xianzhi.aliyun.com/forum/read/458.html)
 + [文件上传漏洞（绕过姿势） ](http://thief.one/2016/09/22/%E4%B8%8A%E4%BC%A0%E6%9C%A8%E9%A9%AC%E5%A7%BF%E5%8A%BF%E6%B1%87%E6%80%BB-%E6%AC%A2%E8%BF%8E%E8%A1%A5%E5%85%85/)
 + [服务器解析漏洞 ](http://thief.one/2016/09/21/%E6%9C%8D%E5%8A%A1%E5%99%A8%E8%A7%A3%E6%9E%90%E6%BC%8F%E6%B4%9E/)
@@ -244,6 +255,7 @@
 + [从XSSer的角度测试上传文件功能](https://xianzhi.aliyun.com/forum/read/224.html)
 + [代码审计之逻辑上传漏洞挖掘](http://wooyun.jozxing.cc/static/drops/papers-1957.html)
 + [渗透测试方法论之文件上传](https://bbs.ichunqiu.com/thread-23193-1-1.html?from=sec)
++ [关于文件名解析的一些探索](https://landgrey.me/filetype-parsing-attack/)
 
 ## 逻辑漏洞
 + [A couple more common OAuth 2.0 vulnerabilities ](https://blog.avuln.com/article/4)
@@ -261,16 +273,19 @@
 
 ## 其他漏洞
 + [未授权访问漏洞总结](https://www.secpulse.com/archives/61101.html)
++ [未授权访问漏洞的检测与利用 ](https://thief.one/2017/12/08/1/)
 + [Web之困笔记](http://www.au1ge.xyz/2017/08/09/web%E4%B9%8B%E5%9B%B0%E7%AC%94%E8%AE%B0/)
 + [常见Web源码泄露总结](http://www.mottoin.com/95749.html)
 + [Github信息泄露升级版案例](http://www.ms509.com/?p=718)
 + [Hacking iSCSI](https://ricterz.me/posts/Hacking%20iSCSI)
++ [技术详解：基于Web的LDAP注入漏洞](http://www.4hou.com/technology/9090.html)
 
 ### RPO(relative path overwrite)
 + [初探 Relative Path Overwrite](https://xianzhi.aliyun.com/forum/read/1527.html?fpage=2)
 + [Detecting and exploiting path-relative stylesheet import (PRSSI) vulnerabilities](http://blog.portswigger.net/2015/02/prssi.html)
 + [RPO](http://www.thespanner.co.uk/2014/03/21/rpo/)
 + [A few RPO exploitation techniques](http://www.mbsd.jp/Whitepaper/rpo.pdf)
+
 
 ### Web Cache
 + [浅析 Web Cache 欺骗攻击](http://bobao.360.cn/learning/detail/3828.html)
@@ -337,6 +352,7 @@
 + [PHP漏洞挖掘思路+实例](http://wooyun.jozxing.cc/static/drops/tips-838.html)
 + [PHP漏洞挖掘思路+实例 第二章](http://wooyun.jozxing.cc/static/drops/tips-858.html)
 + [浅谈代码审计入门实战：某博客系统最新版审计之旅 ](http://www.freebuf.com/articles/rookie/143554.html)
++ [PHP 代码审计小结 (一) ](https://www.chery666.cn/blog/2017/12/11/Code-audit.html)
 
 ## java-Web
 ### 反序列
@@ -350,6 +366,7 @@
 + [Attacking Java Deserialization](https://nickbloor.co.uk/2017/08/13/attacking-java-deserialization/)
 + [jackson反序列化详细分析](http://bobao.360.cn/learning/detail/4118.html)
 + [Java安全之反序列化漏洞分析 ](https://mp.weixin.qq.com/s?__biz=MzIzMzgxOTQ5NA==&mid=2247484200&idx=1&sn=8f3201f44e6374d65589d00d91f7148e)
++ [fastjson 反序列化漏洞 POC 分析 ](https://mp.weixin.qq.com/s/0a5krhX-V_yCkz-zDN5kGg)
 
 ### Struct2
 + [Struts2 命令执行系列回顾](http://www.zerokeeper.com/vul-analysis/struts2-command-execution-series-review.html)
@@ -360,16 +377,18 @@
 + [Java代码审计连载之—任意文件下载](https://bbs.ichunqiu.com/forum.php?mod=viewthread&tid=23587&highlight=Java%E4%BB%A3%E7%A0%81%E5%AE%A1%E8%AE%A1%E8%BF%9E%E8%BD%BD)
 + [Java代码审计连载之—XSS](https://bbs.ichunqiu.com/forum.php?mod=viewthread&tid=22875&highlight=Java%E4%BB%A3%E7%A0%81%E5%AE%A1%E8%AE%A1%E8%BF%9E%E8%BD%BD)
 + [Java代码审计连载之—添油加醋](https://bbs.ichunqiu.com/forum.php?mod=viewthread&tid=25475&highlight=Java%E4%BB%A3%E7%A0%81%E5%AE%A1%E8%AE%A1%E8%BF%9E%E8%BD%BD)
++ [JAVA安全编码与代码审计.md](https://github.com/Cryin/JavaID/blob/master/JAVA%E5%AE%89%E5%85%A8%E7%BC%96%E7%A0%81%E4%B8%8E%E4%BB%A3%E7%A0%81%E5%AE%A1%E8%AE%A1.md)
++ [Java代码审计PPT ](https://xianzhi.aliyun.com/forum/read/1904.html)
 
 ### 其他
+
 + [关于 JNDI 注入](http://bobao.360.cn/learning/detail/4564.html)
 + [层层放大java审计的攻击面 ](https://mp.weixin.qq.com/s/WT1EXEryUGGqHQpSi959xw)
 + [以Java的视角来聊聊SQL注入 ](https://mp.weixin.qq.com/s?__biz=MzIzMzgxOTQ5NA==&mid=2247483954&idx=1&sn=418b7e55b16c717ee5140af990298e22&chksm=e8fe9e3bdf89172d0670690060944bf2434cc2d2e8fba4477711299a0775cf3735a2022c0778#rd)
 + [站在Java的视角，深度分析防不胜防的小偷——“XSS” ](http://mp.weixin.qq.com/s?__biz=MzIzMzgxOTQ5NA==&mid=100000340&idx=1&sn=6ca4ec15ef6338daf1d4a907351d7c08&chksm=68fe9e5d5f89174b44fd0cae2e3d5c0018859d3d1dc6d60a2e16dcde34499ba224d6ea17a982#rd)
 + [你的 Java web 配置安全吗？ ](https://mp.weixin.qq.com/s?__biz=MzIzMzgxOTQ5NA==&mid=100000318&idx=1&sn=9011af3e3968e0d87499605ef1a68291&chksm=68fe9e375f8917213297855bd9e1ab1203ae4c9b0b5ca351de7b2c0f7a7799bd1f4843cd13f4#rd)
-+ [Java代码审计PPT ](https://xianzhi.aliyun.com/forum/read/1904.html)
 + [spring任意文件读取](https://github.com/ilmila/springcss-cve-2014-3625/tree/master/src)
-
++ [在 Runtime.getRuntime().exec(String cmd) 中执行任意shell命令的几种方法](https://mp.weixin.qq.com/s/zCe_O37rdRqgN-Yvlq1FDg)
 
 ## python-Web
 + [python web 安全总结](http://bobao.360.cn/learning/detail/4522.html)
@@ -395,7 +414,7 @@
 + [node.js + postgres 从注入到Getshell](https://www.leavesongs.com/PENETRATION/node-postgres-code-execution-vulnerability.html)
 + [Pentesting Node.js Application : Nodejs Application Security(需翻墙)](http://www.websecgeeks.com/2017/04/pentesting-nodejs-application-nodejs.html)
 + [从零开始学习渗透Node.js应用程序 ](https://bbs.ichunqiu.com/thread-21810-1-1.html?from=sec)
-
++ [Node.js 中遇到含空格 URL 的神奇“Bug”——小范围深入 HTTP 协议](https://segmentfault.com/a/1190000012407268)
 
 ## WAF相关
 + [详谈WAF与静态统计分析](http://bobao.360.cn/learning/detail/4670.html)
@@ -508,6 +527,7 @@
 + [Linux后门整理合集（脉搏推荐）](https://www.secpulse.com/archives/59674.html)
 
 ## 运维
++ [安全运维那些洞 ](https://mp.weixin.qq.com/s/5TfAF5-HR8iDA_qSIJkQ0Q)
 + [美团外卖自动化业务运维系统建设](https://tech.meituan.com/digger_share.html)
 + [饿了么运维基础设施进化史 ](https://mp.weixin.qq.com/s?__biz=MzA4Nzg5Nzc5OA==&mid=2651668800&idx=1&sn=615af5f120d1298475aaf4825009cb30&chksm=8bcb82e9bcbc0bff6309d9bbaf69cfc591624206b846e00d5004a68182c934dab921b7c25794&scene=38#wechat_redirect)
 + [nginx配置一篇足矣](http://www.xuxiaobo.com/?p=3869)
@@ -521,7 +541,8 @@
 + [企业常见服务漏洞检测&修复整理](http://www.mottoin.com/92742.html)
 + [Linux基线加固](https://mp.weixin.qq.com/s/0nxiZw1NUoQTjxcd3zl6Zg)
 + [Apache server security: 10 tips to secure installation](https://www.acunetix.com/blog/articles/10-tips-secure-apache-installation/)
-
++ [Oracle数据库运维中的攻防实战（全） ](https://mp.weixin.qq.com/s/dpvBo6Bat5u4t8kSFRcv9w)
++ [Linux服务器上监控网络带宽的18个常用命令](http://www.xuxiaobo.com/?p=3950)
 ## DDOS
 + [DDoS攻防补遗 ](https://yq.aliyun.com/articles/1795)
 + [反射DDOS攻击防御的一点小想法 ](http://www.freebuf.com/column/138163.html)
