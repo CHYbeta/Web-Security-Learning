@@ -4,40 +4,33 @@
 该repo会不断更新，最近更新日期为：2017/12/21。
 
 同步更新于： [chybeta: Web-Security-Learning (带目录) ](https://chybeta.github.io/2017/08/19/Web-Security-Learning/) 
-12月21日更新：
+01月29日更新：
 + 新收录文章
-	+ sql注入
-		+ [SQL注入的“冷门姿势” ](http://www.freebuf.com/articles/web/155876.html)
-		+ [MySQL绕过WAF实战技巧 ](http://www.freebuf.com/articles/web/155570.html)
-		+ [NetSPI SQL Injection Wiki](https://sqlwiki.netspi.com/)
-	+ XSS
-		+ [Browser's XSS Filter Bypass Cheat Sheet](https://github.com/masatokinugawa/filterbypass/wiki/Browser's-XSS-Filter-Bypass-Cheat-Sheet)
-	+ SSRF
-		+ [SSRF in JAVA](https://xianzhi.aliyun.com/forum/topic/1712/)
-	+ XXE
-		+ [Java XXE Vulnerability](https://joychou.org/web/java-xxe-vulnerability.html)
-		+ [xml-attacks.md](https://gist.github.com/mgeeky/4f726d3b374f0a34267d4f19c9004870)
-	+ 命令执行
-		+ [命令注入突破长度限制 ](http://www.freebuf.com/articles/web/154453.html)
-	+ 文件上传 / 解析漏洞
-		+ [文件上传和WAF的攻与防](https://www.secfree.com/article-585.html)
-		+ [关于文件名解析的一些探索](https://landgrey.me/filetype-parsing-attack/)
+	+ mysql
+		+ [SSRF To RCE in MySQL](https://paper.tuisec.win/detail/28a5858b8a23006)
+	+ MSSQL
+		+ [MSSQL不使用xp_cmdshell执行命令并获取回显的两种方法](https://zhuanlan.zhihu.com/p/33322584)
+	+ postgresql
+		+ [渗透中利用postgresql getshell ](http://www.jianfensec.com/postgresql_getshell.html)
+	+ 前端安全
+		+ [严格 CSP 下的几种有趣的思路（34c3 CTF）](http://www.melodia.pw/?p=935)
+		+ [从微信小程序看前端代码安全](https://share.whuboy.com/weapp.html)
+		+ [水坑攻击之Jsonp hijacking-信息劫持](http://www.mottoin.com/88237.html)
+	+ php
+		+ [2018 PHP 应用程序安全设计指北 ](https://laravel-china.org/articles/7235/2018-php-application-security-design)
 	+ java-Web
-		+ [在 Runtime.getRuntime().exec(String cmd) 中执行任意shell命令的几种方法](https://mp.weixin.qq.com/s/zCe_O37rdRqgN-Yvlq1FDg)
-		+ [JAVA安全编码与代码审计.md](https://github.com/Cryin/JavaID/blob/master/JAVA%E5%AE%89%E5%85%A8%E7%BC%96%E7%A0%81%E4%B8%8E%E4%BB%A3%E7%A0%81%E5%AE%A1%E8%AE%A1.md)
-	+ php代码审计
-		+ [PHP 代码审计小结 (一) ](https://www.chery666.cn/blog/2017/12/11/Code-audit.html)
-	+ Node-js
-		+ [Node.js 中遇到含空格 URL 的神奇“Bug”——小范围深入 HTTP 协议](https://segmentfault.com/a/1190000012407268)
-	+ 运维
-		+ [Linux服务器上监控网络带宽的18个常用命令](http://www.xuxiaobo.com/?p=3950)
-		+ [Oracle数据库运维中的攻防实战（全） ](https://mp.weixin.qq.com/s/dpvBo6Bat5u4t8kSFRcv9w)
-		+ [安全运维那些洞 ](https://mp.weixin.qq.com/s/5TfAF5-HR8iDA_qSIJkQ0Q)
-	+ 其他漏洞
-		+ [未授权访问漏洞的检测与利用 ](https://thief.one/2017/12/08/1/)
-		+ [技术详解：基于Web的LDAP注入漏洞](http://www.4hou.com/technology/9090.html)
-		
+		+ [Apache Commons Collections反序列化漏洞学习](http://pirogue.org/2017/12/22/javaSerialKiller/)
+	+ redis
+		+ [【应急响应】redis未授权访问致远程植入挖矿脚本（防御篇） ](https://mp.weixin.qq.com/s/eUTZsGUGSO0AeBUaxq4Q2w)
+	+ SSTI
+		+ [服务端模板注入攻击](https://zhuanlan.zhihu.com/p/28823933)
+	+ 信息搜集
+		+ [渗透测试向导之子域名枚举技术](http://www.freebuf.com/articles/network/161046.html)
+		+ [挖洞技巧：信息泄露之总结](https://www.anquanke.com/post/id/94787)
+	+ 渗透
+		+ [我所了解的内网渗透——内网渗透知识大总结](https://www.anquanke.com/post/id/92646)
 <!-- more -->
+
 # Web-Security-Learning
 项目地址：[Web-Security-Learning](https://github.com/CHYbeta/Web-Security-Learning)
 
@@ -65,10 +58,12 @@
 + [MSSQL DBA权限获取WEBSHELL的过程 ](http://fuping.site/2017/05/16/MSSQL-DBA-Permission-GET-WEBSHELL/)
 + [MSSQL 注入攻击与防御](http://bobao.360.cn/learning/detail/3807.html)
 + [CLR在SQL Server中的利用技术分析](http://docs.ioin.in/writeup/cert.360.cn/_files_CLR_E5_9C_A8SQL_20Server_E4_B8_AD_E7_9A_84_E5_88_A9_E7_94_A8_E6_8A_80_E6_9C_AF_E5_88_86_E6_9E_90_pdf/index.pdf)
++ [MSSQL不使用xp_cmdshell执行命令并获取回显的两种方法](https://zhuanlan.zhihu.com/p/33322584)
 
 ### PostgreSQL
 + [postgresql数据库利用方式 ](https://mp.weixin.qq.com/s?__biz=MzI5MDQ2NjExOQ==&mid=2247484788&idx=1&sn=8a53b1c64d864cd01bab095d97a17715&chksm=ec1e355cdb69bc4a2535bc1a053bfde3ec1838d03936ba8e44156818e91bbec9b5b04a744005#rd)
 + [PostgreSQL渗透测试指南](http://bobao.360.cn/learning/detail/4135.html)
++ [渗透中利用postgresql getshell ](http://www.jianfensec.com/postgresql_getshell.html)
 
 ### MongoDB
 + [十分钟看懂MongoDB攻防实战](http://www.freebuf.com/articles/database/148823.html)
@@ -106,6 +101,7 @@
 + [LoRexxar-CSP](http://lorexxar.cn/tags/csp/)
 + [前端防御从入门到弃坑--CSP变迁](https://paper.seebug.org/423/)
 + [CSP bypass by setting innerHTML on a same-origin page lacking CSP](https://bugs.chromium.org/p/chromium/issues/detail?id=764518)
++ [严格 CSP 下的几种有趣的思路（34c3 CTF）](http://www.melodia.pw/?p=935)
 + [如何绕过Edge、Chrome和Safari的内容安全策略](http://bobao.360.cn/learning/detail/4406.html)
 + [XSS小记](https://xianzhi.aliyun.com/forum/read/196.html?fpage=7)
 + [DOMXSS Wiki](https://github.com/wisec/domxsswiki/wiki)
@@ -155,6 +151,7 @@
 + [safari本地文件读取漏洞之扩展攻击面](http://www.wupco.cn/?p=4134)
 + [利用脚本注入漏洞攻击ReactJS应用程序](http://www.freebuf.com/articles/web/144988.html)
 + [当代 Web 的 JSON 劫持技巧](http://paper.seebug.org/130/?from=timeline&isappinstalled=0)
++ [从微信小程序看前端代码安全](https://share.whuboy.com/weapp.html)
 
 ## SSRF
 + [SSRF:CVE-2017-9993 FFmpeg + AVI + HLS](https://hackmd.io/p/H1B9zOg_W#)
@@ -205,6 +202,7 @@
 + [一次关于JSONP的小实验与总结](http://www.cnblogs.com/vimsk/archive/2013/01/29/2877888.html)
 + [利用JSONP跨域获取信息](https://xianzhi.aliyun.com/forum/read/1571.html)
 + [关于跨域和jsonp的一些理解(新手向)](https://segmentfault.com/a/1190000009577990)
++ [水坑攻击之Jsonp hijacking-信息劫持](http://www.mottoin.com/88237.html)
 
 ## SSTI
 + [Jinja2 template injection filter bypasses](https://0day.work/jinja2-template-injection-filter-bypasses/)
@@ -220,6 +218,7 @@
 + [利用 Python 特性在 Jinja2 模板中执行任意代码](http://rickgray.me/2016/02/24/use-python-features-to-execute-arbitrary-codes-in-jinja2-templates.html)
 + [Python 模板字符串与模板注入](https://virusdefender.net/index.php/archives/761/)
 + [Ruby ERB Template Injection](https://www.trustedsec.com/2017/09/rubyerb-template-injection/)
++ [服务端模板注入攻击](https://zhuanlan.zhihu.com/p/28823933)
 
 ## 代码执行 / 命令执行
 + [从PHP源码与扩展开发谈PHP任意代码执行与防御](https://blog.zsxsoft.com/post/30)
@@ -256,6 +255,7 @@
 + [代码审计之逻辑上传漏洞挖掘](http://wooyun.jozxing.cc/static/drops/papers-1957.html)
 + [渗透测试方法论之文件上传](https://bbs.ichunqiu.com/thread-23193-1-1.html?from=sec)
 + [关于文件名解析的一些探索](https://landgrey.me/filetype-parsing-attack/)
++ [Web安全 — 上传漏洞绕过 ](http://www.freebuf.com/column/161357.html)
 
 ## 逻辑漏洞
 + [A couple more common OAuth 2.0 vulnerabilities ](https://blog.avuln.com/article/4)
@@ -294,6 +294,7 @@
 + [利用redis写webshell](https://www.leavesongs.com/PENETRATION/write-webshell-via-redis-server.html)
 + [Redis 未授权访问配合 SSH key 文件利用分析](http://blog.knownsec.com/2015/11/analysis-of-redis-unauthorized-of-expolit/)
 + [redis未授权访问漏洞利用总结](https://xianzhi.aliyun.com/forum/read/750.html)。
++ [【应急响应】redis未授权访问致远程植入挖矿脚本（防御篇） ](https://mp.weixin.qq.com/s/eUTZsGUGSO0AeBUaxq4Q2w)
 
 ## PHP相关
 ### 弱类型
@@ -340,6 +341,7 @@
 + [挖掘PHP禁用函数绕过利用姿势](http://blog.th3s3v3n.xyz/2016/11/20/web/%E6%8C%96%E6%8E%98PHP%E7%A6%81%E7%94%A8%E5%87%BD%E6%95%B0%E7%BB%95%E8%BF%87%E5%88%A9%E7%94%A8%E5%A7%BF%E5%8A%BF/)
 + [.user.ini文件构成的PHP后门](http://wooyun.jozxing.cc/static/drops/tips-3424.html)
 
+
 ### php代码审计
 + [PHP漏洞挖掘——进阶篇](http://blog.nsfocus.net/php-vulnerability-mining/)
 + [论PHP常见的漏洞](http://wooyun.jozxing.cc/static/drops/papers-4544.html)
@@ -353,6 +355,7 @@
 + [PHP漏洞挖掘思路+实例 第二章](http://wooyun.jozxing.cc/static/drops/tips-858.html)
 + [浅谈代码审计入门实战：某博客系统最新版审计之旅 ](http://www.freebuf.com/articles/rookie/143554.html)
 + [PHP 代码审计小结 (一) ](https://www.chery666.cn/blog/2017/12/11/Code-audit.html)
++ [2018 PHP 应用程序安全设计指北 ](https://laravel-china.org/articles/7235/2018-php-application-security-design)
 
 ## java-Web
 ### 反序列
@@ -367,6 +370,7 @@
 + [jackson反序列化详细分析](http://bobao.360.cn/learning/detail/4118.html)
 + [Java安全之反序列化漏洞分析 ](https://mp.weixin.qq.com/s?__biz=MzIzMzgxOTQ5NA==&mid=2247484200&idx=1&sn=8f3201f44e6374d65589d00d91f7148e)
 + [fastjson 反序列化漏洞 POC 分析 ](https://mp.weixin.qq.com/s/0a5krhX-V_yCkz-zDN5kGg)
++ [Apache Commons Collections反序列化漏洞学习](http://pirogue.org/2017/12/22/javaSerialKiller/)
 
 ### Struct2
 + [Struts2 命令执行系列回顾](http://www.zerokeeper.com/vul-analysis/struts2-command-execution-series-review.html)
@@ -442,6 +446,7 @@
 + [渗透测试教程：如何侦查目标以及收集信息？](http://www.4hou.com/penetration/6850.html)
 + [本屌的web漏洞扫描器思路 技巧总结（域名信息收集篇）](weibo.com/ttarticle/p/show?id=2309404088584863883789)
 + [子域名的艺术](http://www.91ri.org/17001.html)
++ [渗透测试向导之子域名枚举技术](http://www.freebuf.com/articles/network/161046.html)
 + [实例演示如何科学的进行子域名收集](http://bobao.360.cn/learning/detail/4119.html)
 + [【渗透神器系列】搜索引擎 ](http://thief.one/2017/05/19/1/)
 + [域渗透基础简单信息收集（基础篇）](https://xianzhi.aliyun.com/forum/read/805.html)
@@ -453,6 +458,7 @@
 + [我眼中的渗透测试信息搜集](https://xianzhi.aliyun.com/forum/read/451.html?fpage=2)
 + [大型目标渗透－01入侵信息搜集](https://xianzhi.aliyun.com/forum/read/1675.html)
 + [乙方渗透测试之信息收集](http://www.cnnetarmy.com/%E4%B9%99%E6%96%B9%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95%E4%B9%8B%E4%BF%A1%E6%81%AF%E6%94%B6%E9%9B%86/)
++ [挖洞技巧：信息泄露之总结](https://www.anquanke.com/post/id/94787)
 
 ## 渗透
 + [【玩转Linux系统】Linux内网渗透 ](https://mp.weixin.qq.com/s/VJBnXq3--0HBD7eVeifOKA)
@@ -481,6 +487,7 @@
 + [内网端口转发及穿透](https://xianzhi.aliyun.com/forum/read/1715.html)
 + [秘密渗透内网——利用 DNS 建立 VPN 传输隧道](http://www.4hou.com/technology/3143.html)
 + [Reverse Shell Cheat Sheet](http://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet)
++ [我所了解的内网渗透——内网渗透知识大总结](https://www.anquanke.com/post/id/92646)
 
 ## 渗透实战
 + [挖洞经验 | 看我如何综合利用4个漏洞实现GitHub Enterprise远程代码执行 ](http://www.freebuf.com/news/142680.html)
