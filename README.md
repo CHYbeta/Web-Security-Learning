@@ -39,21 +39,24 @@
 
 ### MSSQL
 + [MSSQL DBA权限获取WEBSHELL的过程 ](http://fuping.site/2017/05/16/MSSQL-DBA-Permission-GET-WEBSHELL/)
-+ [MSSQL 注入攻击与防御](http://bobao.360.cn/learning/detail/3807.html)
-+ [CLR在SQL Server中的利用技术分析](http://docs.ioin.in/writeup/cert.360.cn/_files_CLR_E5_9C_A8SQL_20Server_E4_B8_AD_E7_9A_84_E5_88_A9_E7_94_A8_E6_8A_80_E6_9C_AF_E5_88_86_E6_9E_90_pdf/index.pdf)
++ [MSSQL 注入攻击与防御](https://www.anquanke.com/post/id/86011)
++ [CLR在SQL Server中的利用技术分](http://docs.ioin.in/writeup/cert.360.cn/_files_CLR_E5_9C_A8SQL_20Server_E4_B8_AD_E7_9A_84_E5_88_A9_E7_94_A8_E6_8A_80_E6_9C_AF_E5_88_86_E6_9E_90_pdf/index.pdf)
 + [MSSQL不使用xp_cmdshell执行命令并获取回显的两种方法](https://zhuanlan.zhihu.com/p/33322584)
 
 ### PostgreSQL
 + [postgresql数据库利用方式 ](https://mp.weixin.qq.com/s?__biz=MzI5MDQ2NjExOQ==&mid=2247484788&idx=1&sn=8a53b1c64d864cd01bab095d97a17715&chksm=ec1e355cdb69bc4a2535bc1a053bfde3ec1838d03936ba8e44156818e91bbec9b5b04a744005#rd)
-+ [PostgreSQL渗透测试指南](http://bobao.360.cn/learning/detail/4135.html)
++ [PostgreSQL渗透测试指南](https://www.anquanke.com/post/id/86468)
 + [渗透中利用postgresql getshell ](http://www.jianfensec.com/postgresql_getshell.html)
 
 ### MongoDB
 + [十分钟看懂MongoDB攻防实战](http://www.freebuf.com/articles/database/148823.html)
 + [MongoDB安全 – PHP注入检测](http://www.mottoin.com/94341.html)
++ [技术分享：如何Hacking MongoDB？](https://www.freebuf.com/articles/network/101494.html)
++ [MongoDB安全，php中的注入攻击](https://www.anquanke.com/post/id/84009)
++ [一个MongoDB注入攻击案例分析](https://www.freebuf.com/articles/web/106085.html)
 
 ### 技巧
-+ [我的WafBypass之道（SQL注入篇）](https://xianzhi.aliyun.com/forum/read/349.html)
++ [我的WafBypass之道（SQL注入篇）](https://xz.aliyun.com/t/368)
 + [Bypass 360主机卫士SQL注入防御](http://www.cnblogs.com/xiaozi/p/7275134.html)
 + [SQL注入之骚姿势小记](https://mp.weixin.qq.com/s/ORsciwsBGQJhFdKqceprSw)
 + [CTF比赛中SQL注入的一些经验总结 ](http://www.freebuf.com/articles/web/137094.html)
@@ -70,10 +73,13 @@
 
 ### 工具
 + [sqlmap自带的tamper你了解多少？ ](https://mp.weixin.qq.com/s/vEEoMacmETUA4yZODY8xMQ)
++ [sqlmap的使用 ---- 自带绕过脚本tamper](https://xz.aliyun.com/t/2746)
 + [使用burp macros和sqlmap绕过csrf防护进行sql注入](http://bobao.360.cn/learning/detail/3557.html)
 + [sqlmap 使用总结 ](http://www.zerokeeper.com/web-security/sqlmap-usage-summary.html)
 + [SQLmap tamper脚本注释](http://www.lengbaikai.net/?p=110)
 + [通过Burp以及自定义的Sqlmap Tamper进行二次SQL注入](http://www.4hou.com/system/6945.html)
++ [记一份SQLmap使用手册小结（一）](https://xz.aliyun.com/t/3010)
++ [记一份SQLmap使用手册小结（二）](https://xz.aliyun.com/t/3011)
 
 ## 前端安全
 ### XSS
