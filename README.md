@@ -5,6 +5,12 @@
 
 同步更新于： [chybeta: Web-Security-Learning (带目录) ](https://chybeta.github.io/2017/08/19/Web-Security-Learning/) 
 
++ [Dnslog在SQL注入中的实战](https://www.anquanke.com/post/id/98096)
++ [时间延迟盲注的三种加速注入方式mysql](https://www.ch1st.cn/?p=44)
++ [基于时间的高效的SQL盲注-使用MySQL的位运算符](https://xz.aliyun.com/t/3054)
+
+
+
 
 <!-- more -->
 
@@ -23,13 +29,19 @@
 + [MySQL偏门技巧](http://rcoil.me/2017/05/MySQL%E5%81%8F%E9%97%A8%E6%8A%80%E5%B7%A7/)
 + [mysql注入可报错时爆表名、字段名、库名](http://www.wupco.cn/?p=4117)
 + [高级SQL注入:混淆和绕过](http://www.cnblogs.com/croot/p/3450262.html)
-+ [BypassD盾IIS防火墙SQL注入防御（多姿势）](https://xz.aliyun.com/t/40)
-+ [SQL注入：如何通过Python CGIHTTPServer绕过CSRF tokens](https://www.anquanke.com/post/id/87022)
 + [Mysql约束攻击](https://ch1st.github.io/2017/10/19/Mysql%E7%BA%A6%E6%9D%9F%E6%94%BB%E5%87%BB/)
 + [Mysql数据库渗透及漏洞利用总结 ](https://xianzhi.aliyun.com/forum/topic/1491/)
 + [MySQL绕过WAF实战技巧 ](http://www.freebuf.com/articles/web/155570.html)
 + [NetSPI SQL Injection Wiki](https://sqlwiki.netspi.com/)
 + [SQL注入的“冷门姿势” ](http://www.freebuf.com/articles/web/155876.html)
++ [时间延迟盲注的三种加速注入方式mysql](https://www.ch1st.cn/?p=44)
++ [基于时间的高效的SQL盲注-使用MySQL的位运算符](https://xz.aliyun.com/t/3054)
++ [Mysql UDF BackDoor](https://xz.aliyun.com/t/2365)
++ [mysql小括号被过滤后的盲注](https://www.th1s.cn/index.php/2018/02/26/213.html)
++ [SSRF To RCE in MySQL](http://docs.ioin.in/writeup/mp.weixin.qq.com/49ca504e-3b31-40ac-8591-f833086cb588/index.html)
++ [MySQL-盲注浅析](http://rcoil.me/2017/11/MySQL-%E7%9B%B2%E6%B3%A8%E6%B5%85%E6%9E%90/)
++ [Mysql字符编码利用技巧](https://www.leavesongs.com/PENETRATION/mysql-charset-trick.html)
++ [MySQL Injection in Update, Insert and Delete](https://osandamalith.com/2017/02/08/mysql-injection-in-update-insert-and-delete/)
 
 ### MSSQL
 + [MSSQL DBA权限获取WEBSHELL的过程 ](http://fuping.site/2017/05/16/MSSQL-DBA-Permission-GET-WEBSHELL/)
@@ -52,12 +64,14 @@
 + [SQL注入之骚姿势小记](https://mp.weixin.qq.com/s/ORsciwsBGQJhFdKqceprSw)
 + [CTF比赛中SQL注入的一些经验总结 ](http://www.freebuf.com/articles/web/137094.html)
 + [如何绕过WAF/NGWAF的libinjection实现SQL注入](http://bobao.360.cn/learning/detail/3855.html)
-+ [HackMe-SQL-Injection-Challenges
-](https://github.com/breakthenet/HackMe-SQL-Injection-Challenges)
++ [HackMe-SQL-Injection-Challenges](https://github.com/breakthenet/HackMe-SQL-Injection-Challenges)
 + [绕过WAF注入](https://bbs.ichunqiu.com/thread-25397-1-1.html?from=sec)
 + [bypassGET和POST的注入防御思路分享](https://bbs.ichunqiu.com/thread-16134-1-1.html?from=sec)
 + [SQL注入的常规思路及奇葩技巧 ](https://mp.weixin.qq.com/s/hBkJ1M6LRgssNyQyati1ng)
 + [Beyond SQLi: Obfuscate and Bypass](https://www.exploit-db.com/papers/17934/)
++ [Dnslog在SQL注入中的实战](https://www.anquanke.com/post/id/98096)
++ [SQL注入：如何通过Python CGIHTTPServer绕过CSRF tokens](https://www.anquanke.com/post/id/87022)
++ [BypassD盾IIS防火墙SQL注入防御（多姿势）](https://xz.aliyun.com/t/40)
 
 
 ### 工具
