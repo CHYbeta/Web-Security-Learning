@@ -78,6 +78,7 @@
 + [sqlmap 使用总结 ](http://www.zerokeeper.com/web-security/sqlmap-usage-summary.html)
 + [SQLmap tamper脚本注释](http://www.lengbaikai.net/?p=110)
 + [通过Burp以及自定义的Sqlmap Tamper进行二次SQL注入](http://www.4hou.com/system/6945.html)
++ [SQLMAP  JSON格式检测](https://xz.aliyun.com/t/1091)
 + [记一份SQLmap使用手册小结（一）](https://xz.aliyun.com/t/3010)
 + [记一份SQLmap使用手册小结（二）](https://xz.aliyun.com/t/3011)
 
