@@ -1,34 +1,11 @@
 # [Web-Security-Learning](https://chybeta.github.io/2017/08/19/Web-Security-Learning/)
 
 在学习Web安全的过程中整合的一些资料。 
-该repo会不断更新，最近更新日期为：2017/12/21。
+该repo会不断更新，最近更新日期为：2018/10/31。
 
 同步更新于： [chybeta: Web-Security-Learning (带目录) ](https://chybeta.github.io/2017/08/19/Web-Security-Learning/) 
-01月29日更新：
-+ 新收录文章
-	+ mysql
-		+ [SSRF To RCE in MySQL](https://paper.tuisec.win/detail/28a5858b8a23006)
-	+ MSSQL
-		+ [MSSQL不使用xp_cmdshell执行命令并获取回显的两种方法](https://zhuanlan.zhihu.com/p/33322584)
-	+ postgresql
-		+ [渗透中利用postgresql getshell ](http://www.jianfensec.com/postgresql_getshell.html)
-	+ 前端安全
-		+ [严格 CSP 下的几种有趣的思路（34c3 CTF）](http://www.melodia.pw/?p=935)
-		+ [从微信小程序看前端代码安全](https://share.whuboy.com/weapp.html)
-		+ [水坑攻击之Jsonp hijacking-信息劫持](http://www.mottoin.com/88237.html)
-	+ php
-		+ [2018 PHP 应用程序安全设计指北 ](https://laravel-china.org/articles/7235/2018-php-application-security-design)
-	+ java-Web
-		+ [Apache Commons Collections反序列化漏洞学习](http://pirogue.org/2017/12/22/javaSerialKiller/)
-	+ redis
-		+ [【应急响应】redis未授权访问致远程植入挖矿脚本（防御篇） ](https://mp.weixin.qq.com/s/eUTZsGUGSO0AeBUaxq4Q2w)
-	+ SSTI
-		+ [服务端模板注入攻击](https://zhuanlan.zhihu.com/p/28823933)
-	+ 信息搜集
-		+ [渗透测试向导之子域名枚举技术](http://www.freebuf.com/articles/network/161046.html)
-		+ [挖洞技巧：信息泄露之总结](https://www.anquanke.com/post/id/94787)
-	+ 渗透
-		+ [我所了解的内网渗透——内网渗透知识大总结](https://www.anquanke.com/post/id/92646)
+
+
 <!-- more -->
 
 # Web-Security-Learning
