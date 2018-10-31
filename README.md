@@ -16,15 +16,15 @@
 ## sql注入
 
 ### MySql
-+ [MySQL False注入及技巧总结](http://bobao.360.cn/learning/detail/3804.html)
-+ [MySQL 注入攻击与防御](http://bobao.360.cn/learning/detail/3758.html)
++ [MySQL False注入及技巧总结](https://www.anquanke.com/post/id/86021)
++ [MySQL 注入攻击与防御](https://www.anquanke.com/post/id/85936)
 + [sql注入学习总结 ](https://mp.weixin.qq.com/s?__biz=MzI5MDQ2NjExOQ==&mid=2247484372&idx=1&sn=ffcc51a88c9acf96c312421b75fc2a26&chksm=ec1e33fcdb69baea53838fd545a236c0deb8a42f3b341ee0879c9e4ac9427c2147fab95b6669#rd)
-+ [SQL注入防御与绕过的几种姿势](http://bobao.360.cn/learning/detail/3801.html)
++ [SQL注入防御与绕过的几种姿势](https://www.anquanke.com/post/id/86005)
 + [MySQL偏门技巧](http://rcoil.me/2017/05/MySQL%E5%81%8F%E9%97%A8%E6%8A%80%E5%B7%A7/)
 + [mysql注入可报错时爆表名、字段名、库名](http://www.wupco.cn/?p=4117)
 + [高级SQL注入:混淆和绕过](http://www.cnblogs.com/croot/p/3450262.html)
-+ [BypassD盾IIS防火墙SQL注入防御（多姿势）](https://xianzhi.aliyun.com/forum/read/2173.html)
-+ [SQL注入：如何通过Python CGIHTTPServer绕过CSRF tokens](http://bobao.360.cn/learning/detail/4552.html)
++ [BypassD盾IIS防火墙SQL注入防御（多姿势）](https://xz.aliyun.com/t/40)
++ [SQL注入：如何通过Python CGIHTTPServer绕过CSRF tokens](https://www.anquanke.com/post/id/87022)
 + [Mysql约束攻击](https://ch1st.github.io/2017/10/19/Mysql%E7%BA%A6%E6%9D%9F%E6%94%BB%E5%87%BB/)
 + [Mysql数据库渗透及漏洞利用总结 ](https://xianzhi.aliyun.com/forum/topic/1491/)
 + [MySQL绕过WAF实战技巧 ](http://www.freebuf.com/articles/web/155570.html)
