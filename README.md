@@ -5,12 +5,6 @@
 
 同步更新于： [chybeta: Web-Security-Learning (带目录) ](https://chybeta.github.io/2017/08/19/Web-Security-Learning/) 
 
-+ [Dnslog在SQL注入中的实战](https://www.anquanke.com/post/id/98096)
-+ [时间延迟盲注的三种加速注入方式mysql](https://www.ch1st.cn/?p=44)
-+ [基于时间的高效的SQL盲注-使用MySQL的位运算符](https://xz.aliyun.com/t/3054)
-
-
-
 
 <!-- more -->
 
