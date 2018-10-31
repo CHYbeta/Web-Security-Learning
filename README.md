@@ -16,7 +16,7 @@
 ## sql注入
 
 ### MySql
-+ [MySQL False注入及技巧总结](https://www.anquanke.com/post/id/86021)
++ [MySQL False 注入及技巧总结](https://www.anquanke.com/post/id/86021)
 + [MySQL 注入攻击与防御](https://www.anquanke.com/post/id/85936)
 + [sql注入学习总结 ](https://mp.weixin.qq.com/s?__biz=MzI5MDQ2NjExOQ==&mid=2247484372&idx=1&sn=ffcc51a88c9acf96c312421b75fc2a26&chksm=ec1e33fcdb69baea53838fd545a236c0deb8a42f3b341ee0879c9e4ac9427c2147fab95b6669#rd)
 + [SQL注入防御与绕过的几种姿势](https://www.anquanke.com/post/id/86005)
