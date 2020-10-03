@@ -27,10 +27,10 @@
     - [文件包含](#%E6%96%87%E4%BB%B6%E5%8C%85%E5%90%AB)
     - [文件上传 / 解析漏洞](#%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0--%E8%A7%A3%E6%9E%90%E6%BC%8F%E6%B4%9E)
     - [逻辑漏洞](#%E9%80%BB%E8%BE%91%E6%BC%8F%E6%B4%9E)
-    - [其他漏洞](#%E5%85%B6%E4%BB%96%E6%BC%8F%E6%B4%9E)
-        - [RPO(relative path overwrite)](#rporelative-path-overwrite)
-        - [Web Cache](#web-cache)
+    - [未授权访问/信息泄露](#%E6%9C%AA%E6%8E%88%E6%9D%83%E8%AE%BF%E9%97%AE%E4%BF%A1%E6%81%AF%E6%B3%84%E9%9C%B2)
         - [redis](#redis)
+    - [RPO(relative path overwrite)](#rporelative-path-overwrite)
+    - [Web Cache](#web-cache)
     - [PHP相关](#php%E7%9B%B8%E5%85%B3)
         - [弱类型](#%E5%BC%B1%E7%B1%BB%E5%9E%8B)
         - [随机数问题](#%E9%9A%8F%E6%9C%BA%E6%95%B0%E9%97%AE%E9%A2%98)
@@ -187,7 +187,6 @@
 
 
 ## SSRF
-+ [SSRF:CVE-2017-9993 FFmpeg + AVI + HLS](https://hackmd.io/p/H1B9zOg_W#)
 + [SSRF（服务器端请求伪造）测试资源](https://paper.seebug.org/393/)
 + [Build Your SSRF Exploit Framework SSRF](http://docs.ioin.in/writeup/fuzz.wuyun.org/_src_build_your_ssrf_exp_autowork_pdf/index.pdf)
 + [SSRF攻击实例解析](http://www.freebuf.com/articles/web/20407.html)
@@ -195,15 +194,16 @@
 + [SSRF漏洞的挖掘经验](https://www.secpulse.com/archives/4747.html)
 + [SSRF漏洞的利用与学习](http://uknowsec.cn/posts/notes/SSRF%E6%BC%8F%E6%B4%9E%E7%9A%84%E5%88%A9%E7%94%A8%E4%B8%8E%E5%AD%A6%E4%B9%A0.html)
 + [SSRF漏洞中绕过IP限制的几种方法总结](http://www.freebuf.com/articles/web/135342.html)
-+ [利用ssrf漏洞获取google内部的dns信息](http://bobao.360.cn/learning/detail/3566.html)
 + [What is Server Side Request Forgery (SSRF)?](https://www.acunetix.com/blog/articles/server-side-request-forgery-vulnerability/)
 + [Use DNS Rebinding to Bypass SSRF in Java](https://mp.weixin.qq.com/s?__biz=MzIzOTQ5NjUzOQ==&mid=2247483742&idx=1&sn=e7265d5351a6d9ed30d90be1c17be041)
-+ [SSRF in JAVA](https://xianzhi.aliyun.com/forum/topic/1712/)
++ [SSRF in JAVA](https://xz.aliyun.com/t/206)
 + [DNS Rebinding技术绕过SSRF/代理IP限制](http://www.mottoin.com/95734.html)
-+ [Discuz ssrf漏洞利用的几个python脚本](https://phpinfo.me/2017/02/23/1438.html)
-+ [Discuz X系列门户文章功能SSRF漏洞挖掘与分析](http://bobao.360.cn/learning/detail/2889.html)
-+ [SSRF to GET SHELL](http://blog.feei.cn/ssrf/)
 + [SSRF Tips](http://blog.safebuff.com/2016/07/03/SSRF-Tips/)
++ [soap导致的SSRF](https://xz.aliyun.com/t/2960)
++ [SSRF:CVE-2017-9993 FFmpeg + AVI + HLS](https://hackmd.io/p/H1B9zOg_W#)
++ [通过拆分攻击实现的SSRF攻击](https://xz.aliyun.com/t/2894)
++ [SSRF攻击文档翻译](https://xz.aliyun.com/t/2421)
++ [PHP SSRF Techniques How to bypass filter_var(), preg_match() and parse_url()](https://medium.com/secjuice/php-ssrf-techniques-9d422cb28d51)
 
 
 ## XXE
@@ -217,7 +217,6 @@
 + [黑夜的猎杀-盲打XXE](https://xianzhi.aliyun.com/forum/read/1837.html)
 + [Hunting in the Dark - Blind XXE](https://blog.zsec.uk/blind-xxe-learning/)
 + [XMLExternal Entity漏洞培训模块](https://www.sans.org/freading-room/whitepapers/application/hands-on-xml-external-entity-vulnerability-training-module-34397)
-+ [如何挖掘Uber网站的XXE注入漏洞](http://www.mottoin.com/86853.html)
 + [XXE被提起时我们会想到什么](http://www.mottoin.com/88085.html)
 + [XXE漏洞的简单理解和测试](http://www.mottoin.com/92794.html)
 + [XXE漏洞攻防之我见](http://bobao.360.cn/learning/detail/3841.html)
@@ -235,7 +234,7 @@
 + [一次关于JSONP的小实验与总结](http://www.cnblogs.com/vimsk/archive/2013/01/29/2877888.html)
 + [利用JSONP跨域获取信息](https://xianzhi.aliyun.com/forum/read/1571.html)
 + [关于跨域和jsonp的一些理解(新手向)](https://segmentfault.com/a/1190000009577990)
-+ [水坑攻击之Jsonp hijacking-信息劫持](http://www.mottoin.com/88237.html)
++ [水坑攻击之Jsonp hijacking-信息劫持](http://www.mottoin.com/article/web/88237.html)
 
 ## SSTI
 + [Jinja2 template injection filter bypasses](https://0day.work/jinja2-template-injection-filter-bypasses/)
@@ -248,7 +247,7 @@
 + [Injecting Flask](https://nvisium.com/blog/2015/12/07/injecting-flask/)
 + [Server-Side Template Injection: RCE for the modern webapp](https://www.blackhat.com/docs/us-15/materials/us-15-Kettle-Server-Side-Template-Injection-RCE-For-The-Modern-Web-App-wp.pdf)
 + [Exploiting Python Code Injection in Web Applications](https://sethsec.blogspot.jp/2016/11/exploiting-python-code-injection-in-web.html)
-+ [利用 Python 特性在 Jinja2 模板中执行任意代码](http://rickgray.me/2016/02/24/use-python-features-to-execute-arbitrary-codes-in-jinja2-templates.html)
++ [利用 Python 特性在 Jinja2 模板中执行任意代码](http://rickgray.me/2016/02/24/use-python-features-to-execute-arbitrary-codes-in-jinja2-templates/)
 + [Python 模板字符串与模板注入](https://virusdefender.net/index.php/archives/761/)
 + [Ruby ERB Template Injection](https://www.trustedsec.com/2017/09/rubyerb-template-injection/)
 + [服务端模板注入攻击](https://zhuanlan.zhihu.com/p/28823933)
@@ -259,41 +258,38 @@
 + [PHP Code Injection Analysis](http://www.polaris-lab.com/index.php/archives/254/)
 + [	利用环境变量LD_PRELOAD来绕过php disable_function执行系统命令](http://doc.ph0en1x.com/wooyun_drops/%E5%88%A9%E7%94%A8%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8FLD_PRELOAD%E6%9D%A5%E7%BB%95%E8%BF%87php%20disable_function%E6%89%A7%E8%A1%8C%E7%B3%BB%E7%BB%9F%E5%91%BD%E4%BB%A4.html)
 + [Hack PHP mail additional_parameters](http://blog.nsfocus.net/hack-php-mail-additional_parameters/)
-+ [详细解析PHP mail()函数漏洞利用技巧](http://bobao.360.cn/learning/detail/3818.html)
-+ [在PHP应用程序开发中不正当使用mail()函数引发的血案](http://bobao.360.cn/learning/detail/3809.html)
-+ [BigTree CMS - Bypass CSRF filter and execute code with PHPMailer](https://www.cdxy.me/?p=765)
-+ [基于时间反馈的RCE](http://www.mottoin.com/97678.html)
-+ [正则表达式使用不当引发的系统命令执行漏洞](http://bobao.360.cn/learning/detail/3609.html)
++ [详细解析PHP mail()函数漏洞利用技巧](https://www.anquanke.com/post/id/86028)
++ [在PHP应用程序开发中不正当使用mail()函数引发的血案](https://www.anquanke.com/post/id/86015)
++ [基于时间反馈的RCE](http://www.mottoin.com/article/web/97678.html)
++ [正则表达式使用不当引发的系统命令执行漏洞](https://www.anquanke.com/post/id/85698)
 + [命令注入突破长度限制 ](http://www.freebuf.com/articles/web/154453.html)
+  
 ## 文件包含
 + [php文件包含漏洞 ](https://chybeta.github.io/2017/10/08/php%E6%96%87%E4%BB%B6%E5%8C%85%E5%90%AB%E6%BC%8F%E6%B4%9E/)
 + [Turning LFI into RFI](https://l.avala.mp/?p=241)
 + [PHP文件包含漏洞总结](http://wooyun.jozxing.cc/static/drops/tips-3827.html)
-+ [常见文件包含发生场景与防御](http://bobao.360.cn/learning/detail/3873.html)
-+ [基于云端的本地文件包含漏洞](http://bobao.360.cn/learning/detail/3871.html)
++ [常见文件包含发生场景与防御](https://www.anquanke.com/post/id/86123)
 + [zip或phar协议包含文件](https://bl4ck.in/tricks/2015/06/10/zip%E6%88%96phar%E5%8D%8F%E8%AE%AE%E5%8C%85%E5%90%AB%E6%96%87%E4%BB%B6.html)
 + [文件包含漏洞 一](http://drops.blbana.cc/2016/08/12/e6-96-87-e4-bb-b6-e5-8c-85-e5-90-ab-e6-bc-8f-e6-b4-9e/)
 + [文件包含漏洞 二](http://drops.blbana.cc/2016/12/03/e6-96-87-e4-bb-b6-e5-8c-85-e5-90-ab-e6-bc-8f-e6-b4-9e-ef-bc-88-e4-ba-8c-ef-bc-89/)
 
 
 ## 文件上传 / 解析漏洞
++ [Upload-labs通关手册](https://xz.aliyun.com/t/2435)
 + [文件上传和WAF的攻与防](https://www.secfree.com/article-585.html)
-+ [我的WafBypass之道（upload篇）](https://xianzhi.aliyun.com/forum/read/458.html)
++ [我的WafBypass之道（upload篇）](https://xz.aliyun.com/t/337)
 + [文件上传漏洞（绕过姿势） ](http://thief.one/2016/09/22/%E4%B8%8A%E4%BC%A0%E6%9C%A8%E9%A9%AC%E5%A7%BF%E5%8A%BF%E6%B1%87%E6%80%BB-%E6%AC%A2%E8%BF%8E%E8%A1%A5%E5%85%85/)
 + [服务器解析漏洞 ](http://thief.one/2016/09/21/%E6%9C%8D%E5%8A%A1%E5%99%A8%E8%A7%A3%E6%9E%90%E6%BC%8F%E6%B4%9E/)
 + [文件上传总结 ](https://masterxsec.github.io/2017/04/26/%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E6%80%BB%E7%BB%93/)
-+ [文件上传绕过姿势总结](http://www.cnnetarmy.com/%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E7%BB%95%E8%BF%87%E5%A7%BF%E5%8A%BF%E6%80%BB%E7%BB%93/)
-+ [尽最大可能分析上传源码及漏洞利用方式](https://www.hackfun.org/pentest/make-the-most-possible-analysis-of-the-source-code-and-exploit-the-vulnerability.html)
-+ [从XSSer的角度测试上传文件功能](https://xianzhi.aliyun.com/forum/read/224.html)
 + [代码审计之逻辑上传漏洞挖掘](http://wooyun.jozxing.cc/static/drops/papers-1957.html)
 + [渗透测试方法论之文件上传](https://bbs.ichunqiu.com/thread-23193-1-1.html?from=sec)
 + [关于文件名解析的一些探索](https://landgrey.me/filetype-parsing-attack/)
 + [Web安全 — 上传漏洞绕过 ](http://www.freebuf.com/column/161357.html)
++ [上传绕过WAF](http://docs.ioin.in/writeup/www.am0s.com/_jchw_376_html/index.html)
 
 ## 逻辑漏洞
-+ [A couple more common OAuth 2.0 vulnerabilities ](https://blog.avuln.com/article/4)
 + [代码审计之逻辑上传漏洞挖掘](http://wooyun.jozxing.cc/static/drops/papers-1957.html)
-+ [逻辑至上——内含各种酷炫姿势](http://bobao.360.cn/learning/detail/3769.html)
++ [逻辑至上——内含各种酷炫姿势](https://www.anquanke.com/post/id/85947)
 + [Web安全测试中常见逻辑漏洞解析（实战篇）](http://www.freebuf.com/vuls/112339.html)
 + [逻辑漏洞之密码重置 ](https://mp.weixin.qq.com/s/Lynmqd_ieEoNJ3mmyv9eQQ)
 + [逻辑漏洞之支付漏洞](https://mp.weixin.qq.com/s/w22omfxO8vU6XzixXWmBxg)
@@ -302,36 +298,40 @@
 + [一些常见的重置密码漏洞分析整理](http://wooyun.jozxing.cc/static/drops/papers-2035.html)
 + [密码逻辑漏洞小总结](http://docs.ioin.in/writeup/blog.heysec.org/_archives_643/index.html)
 + [漏洞挖掘之逻辑漏洞挖掘](https://bbs.ichunqiu.com/thread-21161-1-1.html)
-+ [tom0li: 逻辑漏洞小结](https://tom0li.github.io/2017/07/17/%E9%80%BB%E8%BE%91%E6%BC%8F%E6%B4%9E%E5%B0%8F%E7%BB%93/)
++ [tom0li: 逻辑漏洞小结](https://tom0li.github.io/%E9%80%BB%E8%BE%91%E6%BC%8F%E6%B4%9E%E5%B0%8F%E7%BB%93/)
 
-## 其他漏洞
+## 未授权访问/信息泄露
++ [未授权访问的tips](https://xz.aliyun.com/t/2320)
 + [未授权访问漏洞总结](https://www.secpulse.com/archives/61101.html)
 + [未授权访问漏洞的检测与利用 ](https://thief.one/2017/12/08/1/)
-+ [Web之困笔记](http://www.au1ge.xyz/2017/08/09/web%E4%B9%8B%E5%9B%B0%E7%AC%94%E8%AE%B0/)
 + [常见Web源码泄露总结](http://www.mottoin.com/95749.html)
-+ [Github信息泄露升级版案例](http://www.ms509.com/?p=718)
-+ [Hacking iSCSI](https://ricterz.me/posts/Hacking%20iSCSI)
-+ [技术详解：基于Web的LDAP注入漏洞](http://www.4hou.com/technology/9090.html)
-
-### RPO(relative path overwrite)
-+ [初探 Relative Path Overwrite](https://xianzhi.aliyun.com/forum/read/1527.html?fpage=2)
-+ [Detecting and exploiting path-relative stylesheet import (PRSSI) vulnerabilities](http://blog.portswigger.net/2015/02/prssi.html)
-+ [RPO](http://www.thespanner.co.uk/2014/03/21/rpo/)
-+ [A few RPO exploitation techniques](http://www.mbsd.jp/Whitepaper/rpo.pdf)
-
-
-### Web Cache
-+ [浅析 Web Cache 欺骗攻击](http://bobao.360.cn/learning/detail/3828.html)
-
++ [挖洞技巧：信息泄露之总结](https://www.anquanke.com/post/id/94787)
 ### redis
 + [利用redis写webshell](https://www.leavesongs.com/PENETRATION/write-webshell-via-redis-server.html)
 + [Redis 未授权访问配合 SSH key 文件利用分析](http://blog.knownsec.com/2015/11/analysis-of-redis-unauthorized-of-expolit/)
 + [redis未授权访问漏洞利用总结](https://xianzhi.aliyun.com/forum/read/750.html)。
 + [【应急响应】redis未授权访问致远程植入挖矿脚本（防御篇） ](https://mp.weixin.qq.com/s/eUTZsGUGSO0AeBUaxq4Q2w)
 
+## RPO(relative path overwrite)
++ [深入剖析RPO漏洞](https://xz.aliyun.com/t/2220)
++ [初探 Relative Path Overwrite](https://xz.aliyun.com/t/193)
++ [Detecting and exploiting path-relative stylesheet import (PRSSI) vulnerabilities](http://blog.portswigger.net/2015/02/prssi.html)
++ [RPO](http://www.thespanner.co.uk/2014/03/21/rpo/)
++ [A few RPO exploitation techniques](http://www.mbsd.jp/Whitepaper/rpo.pdf)
++ [新型Web攻击技术：RPO攻击初探](https://mp.weixin.qq.com/s/P-ncFmNZfBteJBQr8INzsw)
++ [RPO Gadgets](https://blog.innerht.ml/rpo-gadgets/)
+
+## Web Cache
++ [浅析 Web Cache 欺骗攻击](https://www.anquanke.com/post/id/86049)
++ [Practical Web Cache Poisoning](https://portswigger.net/blog/practical-web-cache-poisoning)
++ [实战web缓存中毒](https://xz.aliyun.com/t/2585)
++ [WEB CACHE DECEPTION ATTACK](https://drive.google.com/file/d/0BxuNjp5J7XUIdkotUm5Jem5IZUk/view)
++ [详解Web缓存欺骗攻击](https://www.anquanke.com/post/id/86516)
+  
+
 ## PHP相关
 ### 弱类型
-+ [从弱类型利用以及对象注入到SQL注入](http://bobao.360.cn/learning/detail/3486.html)
++ [从弱类型利用以及对象注入到SQL注入](https://www.anquanke.com/post/id/85455)
 + [PHP中“＝＝”运算符的安全问题](http://bobao.360.cn/learning/detail/2924.html)
 + [PHP弱类型安全问题总结 ](http://blog.spoock.com/2016/06/25/weakly-typed-security/)
 + [浅谈PHP弱类型安全](http://wooyun.jozxing.cc/static/drops/tips-4483.html)
@@ -620,3 +620,5 @@
 + [Joomla 框架的程序执行流程及目录结构分析](http://bobao.360.cn/learning/detail/3909.html)
 + [如何通过恶意插件在Atom中植入后门](http://bobao.360.cn/learning/detail/4268.html)
 + [CRLF Injection and Bypass Tencent WAF ](https://zhchbin.github.io/2016/01/31/CRLF-Injection-and-Bypass-WAF/)
++ [Web之困笔记](http://www.au1ge.xyz/2017/08/09/web%E4%B9%8B%E5%9B%B0%E7%AC%94%E8%AE%B0/)
++ [技术详解：基于Web的LDAP注入漏洞](http://www.4hou.com/technology/9090.html)
