@@ -60,7 +60,6 @@
 - [CTF](#ctf)
   - [技巧总结](#技巧总结)
 - [杂](#杂)
-- [知识星球【漏洞攻防】](#知识星球漏洞攻防)
 
 <!-- more -->
 
@@ -625,8 +624,3 @@
 + [Web之困笔记](http://www.au1ge.xyz/2017/08/09/web%E4%B9%8B%E5%9B%B0%E7%AC%94%E8%AE%B0/)
 + [技术详解：基于Web的LDAP注入漏洞](http://www.4hou.com/technology/9090.html)
 
-
-![](https://github.com/CHYbeta/Web-Security-Learning/blob/master/zsxq_ldgf.png?raw=true)
-
-# 知识星球【漏洞攻防】
-![](https://github.com/CHYbeta/Web-Security-Learning/blob/master/zsxq_ldgf.png?raw=true)
