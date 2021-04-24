@@ -237,7 +237,7 @@
 + [JSONP注入解析 ](http://www.freebuf.com/articles/web/126347.html)
 + [JSONP 安全攻防技术](http://blog.knownsec.com/2015/03/jsonp_security_technic/)
 + [一次关于JSONP的小实验与总结](http://www.cnblogs.com/vimsk/archive/2013/01/29/2877888.html)
-+ [利用JSONP跨域获取信息](https://xianzhi.aliyun.com/forum/read/1571.html)
++ [利用JSONP跨域获取信息](https://xz.aliyun.com/t/176)
 + [关于跨域和jsonp的一些理解(新手向)](https://segmentfault.com/a/1190000009577990)
 + [水坑攻击之Jsonp hijacking-信息劫持](http://www.mottoin.com/article/web/88237.html)
 
