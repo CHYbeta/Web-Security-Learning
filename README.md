@@ -487,7 +487,7 @@
 + [渗透测试向导之子域名枚举技术](http://www.freebuf.com/articles/network/161046.html)
 + [实例演示如何科学的进行子域名收集](http://bobao.360.cn/learning/detail/4119.html)
 + [【渗透神器系列】搜索引擎 ](http://thief.one/2017/05/19/1/)
-+ [域渗透基础简单信息收集（基础篇）](https://xianzhi.aliyun.com/forum/read/805.html)
++ [域渗透基础简单信息收集（基础篇）](https://xz.aliyun.com/t/237)
 + [内网渗透定位技术总结](http://docs.ioin.in/writeup/www.mottoin.com/_92978_html/index.html)
 + [后渗透攻防的信息收集](https://www.secpulse.com/archives/51527.html)
 + [安全攻城师系列文章－敏感信息收集](http://www.mottoin.com/99951.html)
