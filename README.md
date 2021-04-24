@@ -464,7 +464,7 @@
 + [WAF绕过参考资料](http://www.mottoin.com/100887.html)
 + [浅谈WAF绕过技巧](http://www.freebuf.com/articles/web/136723.html)
 + [addslashes防注入的绕过案例](https://xianzhi.aliyun.com/forum/read/753.html?fpage=6)
-+ [浅谈json参数解析对waf绕过的影响](https://xianzhi.aliyun.com/forum/read/553.html?fpage=8)
++ [浅谈json参数解析对waf绕过的影响](https://xz.aliyun.com/t/306)
 + [WAF攻防研究之四个层次Bypass WAF](http://weibo.com/ttarticle/p/show?id=2309404007261092631700)
 + [使用HTTP头去绕过WAF ](http://www.sohu.com/a/110066439_468673)
 + [会找漏洞的时光机: Pinpointing Vulnerabilities](https://www.inforsec.org/wp/?p=1993)
