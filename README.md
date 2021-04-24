@@ -414,7 +414,7 @@
 + [Struts2 命令执行系列回顾](http://www.zerokeeper.com/vul-analysis/struts2-command-execution-series-review.html)
 
 ### java-Web代码审计
-+ [JAVA代码审计的一些Tips(附脚本)](https://xianzhi.aliyun.com/forum/topic/1633/)
++ [JAVA代码审计的一些Tips(附脚本)](https://xz.aliyun.com/t/1633/)
 + [Java代码审计连载之—SQL注入](https://bbs.ichunqiu.com/forum.php?mod=viewthread&tid=22170&highlight=Java%E4%BB%A3%E7%A0%81%E5%AE%A1%E8%AE%A1%E8%BF%9E%E8%BD%BD)
 + [Java代码审计连载之—任意文件下载](https://bbs.ichunqiu.com/forum.php?mod=viewthread&tid=23587&highlight=Java%E4%BB%A3%E7%A0%81%E5%AE%A1%E8%AE%A1%E8%BF%9E%E8%BD%BD)
 + [Java代码审计连载之—XSS](https://bbs.ichunqiu.com/forum.php?mod=viewthread&tid=22875&highlight=Java%E4%BB%A3%E7%A0%81%E5%AE%A1%E8%AE%A1%E8%BF%9E%E8%BD%BD)
