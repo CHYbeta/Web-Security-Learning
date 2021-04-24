@@ -420,7 +420,7 @@
 + [Java代码审计连载之—XSS](https://bbs.ichunqiu.com/forum.php?mod=viewthread&tid=22875&highlight=Java%E4%BB%A3%E7%A0%81%E5%AE%A1%E8%AE%A1%E8%BF%9E%E8%BD%BD)
 + [Java代码审计连载之—添油加醋](https://bbs.ichunqiu.com/forum.php?mod=viewthread&tid=25475&highlight=Java%E4%BB%A3%E7%A0%81%E5%AE%A1%E8%AE%A1%E8%BF%9E%E8%BD%BD)
 + [JAVA安全编码与代码审计.md](https://github.com/Cryin/JavaID/blob/master/JAVA%E5%AE%89%E5%85%A8%E7%BC%96%E7%A0%81%E4%B8%8E%E4%BB%A3%E7%A0%81%E5%AE%A1%E8%AE%A1.md)
-+ [Java代码审计PPT ](https://xianzhi.aliyun.com/forum/read/1904.html)
++ [Java代码审计PPT ](https://xz.aliyun.com/t/1073)
 
 ### 其他
 
