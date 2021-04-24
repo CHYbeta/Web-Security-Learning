@@ -219,7 +219,7 @@
 + [XML实体注入漏洞的利用与学习](http://uknowsec.cn/posts/notes/XML%E5%AE%9E%E4%BD%93%E6%B3%A8%E5%85%A5%E6%BC%8F%E6%B4%9E%E7%9A%84%E5%88%A9%E7%94%A8%E4%B8%8E%E5%AD%A6%E4%B9%A0.html)
 + [XXE注入:攻击与防御 - XXE Injection: Attack and Prevent](http://le4f.net/post/xxe-injection-attack_and_prevent)
 + [XXE (XML External Entity Injection) 漏洞实践](http://www.mottoin.com/101806.html)
-+ [黑夜的猎杀-盲打XXE](https://xianzhi.aliyun.com/forum/read/1837.html)
++ [黑夜的猎杀-盲打XXE](https://xz.aliyun.com/t/122/)
 + [Hunting in the Dark - Blind XXE](https://blog.zsec.uk/blind-xxe-learning/)
 + [XMLExternal Entity漏洞培训模块](https://www.sans.org/freading-room/whitepapers/application/hands-on-xml-external-entity-vulnerability-training-module-34397)
 + [XXE被提起时我们会想到什么](http://www.mottoin.com/88085.html)
