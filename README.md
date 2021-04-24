@@ -314,7 +314,7 @@
 ### redis
 + [利用redis写webshell](https://www.leavesongs.com/PENETRATION/write-webshell-via-redis-server.html)
 + [Redis 未授权访问配合 SSH key 文件利用分析](http://blog.knownsec.com/2015/11/analysis-of-redis-unauthorized-of-expolit/)
-+ [redis未授权访问漏洞利用总结](https://xianzhi.aliyun.com/forum/read/750.html)。
++ [redis未授权访问漏洞利用总结](https://xz.aliyun.com/t/256)。
 + [【应急响应】redis未授权访问致远程植入挖矿脚本（防御篇） ](https://mp.weixin.qq.com/s/eUTZsGUGSO0AeBUaxq4Q2w)
 
 ## RPO(relative path overwrite)
